@@ -24,7 +24,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.125.5'
+          hugo-version: latest
           extended: true
 
       - name: Setup Node
@@ -35,7 +35,7 @@ jobs:
           cache-dependency-path: '**/package-lock.json'
 
       - run: npm ci
-      - run: hugo --baseURL https://${REPO_OWNER}.github.io/${REPO_NAME} --minify
+      - run: hugo --baseURL https://hoosiermesh.org --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
