@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main  # <-- specify the branch you want to deploy from
+      - main
   pull_request:
 
 env:
@@ -13,32 +13,35 @@ env:
 
 jobs:
   deploy:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest  # Uses the latest stable Ubuntu
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0         # Fetch all history for .GitInfo and .Lastmod
+          submodules: recursive
+          fetch-depth: 0
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: latest
+          hugo-version: '0.154.5' # Matches the version Docsy is looking for
           extended: true
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          cache: 'npm'
-          cache-dependency-path: '**/package-lock.json'
+          node-version: '22'    # Updated from 20 to 22 to meet Docsy requirements
 
-      - run: npm ci
-      - run: hugo --baseURL https://hoosiermesh.org --minify
+      - name: Install dependencies
+        # Using 'npm install' instead of 'npm ci' to resolve the lockfile mismatch
+        run: npm install
+
+      - name: Build
+        run: hugo --baseURL https://hoosiermesh.org --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
-        if: ${{ github.ref == 'refs/heads/main' }} # <-- specify same branch as above here
+        if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
