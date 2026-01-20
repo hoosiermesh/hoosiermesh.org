@@ -1,5 +1,5 @@
 ---
-title: Goldydocs
+title: Hoosier Mesh
 ---
 
 <style>
@@ -8,9 +8,7 @@ title: Goldydocs
   }
 </style>
 
-{{< blocks/cover title="Welcome to Goldydocs: A Docsy Example Project!" image_anchor="top" height="full" >}}
-
-<img src="/assets/icons/hm_pwd_1080.png" alt="Hoosier Mesh Logo" style="max-width: 300px; margin-bottom: 2rem;">
+{{< blocks/cover title="Hoosier Mesh" image_anchor="top" height="full" image="/assets/icons/hm_pwd_1080.png" >}}
 
 <a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/">
   Learn More <i class="fas fa-arrow-alt-circle-right ms-2"></i>
