@@ -46,9 +46,9 @@ imaging:
 languages:
   en:
     languageName: English
-    title: Goldydocs
+    title: Hoosier Mesh
     params:
-      description: A Docsy example site
+      description: Hoosier Mesh community site
   # cSpell:disable
   'no':
     languageName: Norsk
