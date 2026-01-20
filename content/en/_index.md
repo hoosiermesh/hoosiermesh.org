@@ -1,5 +1,6 @@
 ---
 title: Hoosier Mesh
+background_image: /images/hm_pwd_1080.png
 ---
 
 <style>
@@ -8,7 +9,7 @@ title: Hoosier Mesh
   }
 </style>
 
-{{< blocks/cover title="Hoosier Mesh" image_anchor="top" height="full" image="/assets/icons/hm_pwd_1080.png" >}}
+{{< blocks/cover title="Hoosier Mesh" image_anchor="top" height="full" background_image="/static/images/hm_pwd_1080.png" >}}
 
 <a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/">
   Learn More <i class="fas fa-arrow-alt-circle-right ms-2"></i>
