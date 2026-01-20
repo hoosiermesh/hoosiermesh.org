@@ -1,3 +1,5 @@
+![Hoosier Mesh Logo](/static/images/hm_pwd_720.png)
+
 # Hoosier Mesh
 
 Welcome to Hoosier Mesh! We're a grassroots community dedicated to building and expanding [Meshtastic](https://meshtastic.org) mesh communication networks across Indiana.
