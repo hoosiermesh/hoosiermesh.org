@@ -1,217 +1,89 @@
-# Docsy Example
+# Hoosier Mesh
 
-[Docsy][] is a [Hugo theme module][] for technical documentation sites,
-providing easy site navigation, structure, and more. This **Docsy Example
-Project** uses the Docsy theme component as a hugo module and provides a
-skeleton documentation structure for you to use. You can clone/copy this project
-and edit it with your own content, or use it as an example.
+Welcome to Hoosier Mesh! We're a grassroots community dedicated to building and expanding [Meshtastic](https://meshtastic.org) mesh communication networks across Indiana.
 
-In this project, the Docsy theme is pulled in as a Hugo module, together with
-its dependencies:
+## About This Project
 
-```console
-$ hugo mod graph
-...
-```
+Hoosier Mesh is a community-driven initiative focused on promoting the use of open-source mesh communication technologies—specifically Meshtastic—to create a resilient, decentralized communication infrastructure throughout the Hoosier state.
 
-For Docsy documentation, see [Docsy user guide][].
+## What is Meshtastic?
 
-This Docsy Example Project is hosted on [Netlify][] at [example.docsy.dev][].
-You can view deploy logs from the [deploy section of the project's Netlify
-dashboard][deploys], or this [alternate dashboard][].
+[Meshtastic](https://meshtastic.org) is an open-source, off-grid, long-range communication platform that uses inexpensive LoRa radios to create mesh networks. With Meshtastic, you can:
+- Send text messages without cell service or internet
+- Share GPS locations and telemetry data
+- Build a decentralized communication network in your community
+- Stay connected when traditional services aren't available
 
-This is not an officially supported Google product. This project is currently
-maintained.
+## Our Mission
 
-## Using the Docsy Example Project as a template
+Hoosier Mesh brings together Meshtastic enthusiasts across Indiana to:
+- 📡 Build and maintain mesh network coverage across the state
+- 📚 Educate the community about Meshtastic and mesh networking
+- 🤝 Connect local mesh communities and coordinate infrastructure
+- 🛠️ Share resources, documentation, and best practices
+- 🎯 Organize events, meetups, and node deployment activities
 
-A simple way to get started is to use this project as a template, which gives
-you a site project that is set up and ready to use. To do this:
+## Getting Started with Meshtastic
 
-1. Use the dropdown for switching branches/tags to change to the **latest**
-   released tag.
+1. **Get a Node** - Purchase a Meshtastic-compatible LoRa device (typically $50-120)
+2. **Install the App** - Download the Meshtastic app for [iOS](https://apps.apple.com/us/app/meshtastic/id1516916591) or [Android](https://play.google.com/store/apps/details?id=com.geeksville.mesh)
+3. **Configure Your Device** - Follow the [Meshtastic documentation](https://meshtastic.org/docs/getting-started/) to set up your node
+4. **Join the Mesh** - Connect with other Hoosier Mesh members and start communicating!
 
-2. Click **Use this template**.
+## Site Structure
 
-3. Select a name for your new project and click **Create repository from
-   template**.
+- **Community**: Information about getting involved, events, and local groups
+- **Documentation**: Setup guides, node configuration, and technical references
+- **Notable Nodes**: Showcase of interesting node deployments and coverage areas
+- **Map**: Interactive coverage map showing active nodes across Indiana
+- **Our Friends**: Links to other Meshtastic communities and resources in the region
 
-4. Make your own local working copy of your new repo using git clone, replacing
-   https://github.com/me/example.git with your repo’s web URL:
+## Contributing
 
-```bash
-git clone --depth 1 https://github.com/me/example.git
-```
+We welcome and encourage contributions from the Meshtastic community! Whether you're fixing a typo, adding documentation, or sharing your mesh networking experiences, your input helps make this resource better for everyone.
 
-Depending on your environment you may need to adjust the top-level `module`
-settings in your project's Hugo config file, for example, by adding a proxy to
-use when downloading remote modules. You can find details of what these
-configuration settings do in the
-[Hugo modules documentation](https://gohugo.io/hugo-modules/configuration/#module-config-top-level).
+### Easy Ways to Contribute
 
-Once your settings are adjusted, you can edit your own versions of the site’s
-source files.
+**Edit Directly on the Website**  
+The easiest way to contribute is using the **Edit this page** button found in the sidebar of every page on [hoosiermesh.org](https://hoosiermesh.org). This button takes you directly to GitHub where you can propose changes through a simple pull request—no local development setup required!
 
-If you want to do SCSS edits and want to publish these, you need to install
-`PostCSS`
+**What You Can Contribute:**
+- 📝 Fix typos, improve clarity, or update outdated information
+- 📚 Add tutorials, guides, or configuration examples
+- 🗺️ Share information about local mesh networks or coverage areas
+- 📸 Contribute photos of node deployments or community events
+- 💡 Suggest new content or report issues
 
-```bash
-npm install
-```
+**Get Started:**
+1. Visit any page on [hoosiermesh.org](https://hoosiermesh.org)
+2. Click the **Edit this page** button in the sidebar
+3. Make your changes in the GitHub editor
+4. Submit a pull request with a brief description of your changes
+5. We'll review and merge your contribution!
 
-## Running the website locally
+For more detailed guidelines, code of conduct, and development information, please see [CONTRIBUTING.md](CONTRIBUTING.md).
 
-Building and running the site locally requires a recent `extended` version of
-[Hugo](https://gohugo.io). You can find out more about how to install Hugo for
-your environment in our
-[Getting started](https://www.docsy.dev/docs/getting-started/#prerequisites-and-installation)
-guide.
+## Community Resources
 
-Once you've made your working copy of the site repo, from the repo root folder,
-run:
+- [Meshtastic Official Website](https://meshtastic.org)
+- [Meshtastic Documentation](https://meshtastic.org/docs/)
+- [Meshtastic Discord](https://discord.gg/meshtastic)
+- Join our local Indiana community channels (coming soon!)
 
-```bash
-hugo server
-```
+## Related Indiana Mesh Networks
 
-## Running a container locally
+- [Central Indiana Mesh Network (CIMN)](https://www.cimesh.net/)
+- [Southern Indiana Mesh Network (SIMNet)](https://simnetwork.org/)
 
-You can run docsy-example inside a [Docker](https://docs.docker.com/) container,
-the container runs with a volume bound to the `docsy-example` folder. This
-approach doesn't require you to install any dependencies other than
-[Docker Desktop](https://www.docker.com/products/docker-desktop) on Windows and
-Mac, and [Docker Compose](https://docs.docker.com/compose/install/) on Linux.
+## License
 
-1. Build the docker image
+See [LICENSE](LICENSE) for more information.
 
-   ```bash
-   docker-compose build
-   ```
+## Resources
 
-1. Run the built image
+- [Meshtastic Official Docs](https://meshtastic.org/docs/)
+- [Meshtastic Discord Community](https://discord.gg/meshtastic)
 
-   ```bash
-   docker-compose up
-   ```
+---
 
-   > NOTE: You can run both commands at once with `docker-compose up --build`.
-
-1. Verify that the service is working.
-
-   Open your web browser and type `http://localhost:1313` in your navigation
-   bar, This opens a local instance of the docsy-example homepage. You can now
-   make changes to the docsy example and those changes will immediately show up
-   in your browser after you save.
-
-### Cleanup
-
-To stop Docker Compose, on your terminal window, press **Ctrl + C**.
-
-To remove the produced images run:
-
-```bash
-docker-compose rm
-```
-
-For more information see the [Docker Compose documentation][].
-
-## Using a local Docsy clone
-
-Make sure your installed go version is `1.18` or higher.
-
-Clone the latest version of the docsy theme into the parent folder of your
-project. The newly created repo should now reside in a sibling folder of your
-site's root folder.
-
-```shell
-cd root-of-your-site
-git clone --branch v0.12.0 https://github.com/google/docsy.git ../docsy
-```
-
-Now run:
-
-```shell
-HUGO_MODULE_WORKSPACE=docsy.work hugo server --ignoreVendorPaths "**"
-```
-
-or, when using npm, prepend `local` to the script you want to invoke, e.g.:
-
-```shell
-npm run local serve
-```
-
-By using the `HUGO_MODULE_WORKSPACE` directive (either directly or via prefix
-`local` when using npm), the server now watches all files and directories inside
-the sibling directory `../docsy` , too. Any changes inside the local `docsy`
-theme clone are now immediately picked up (hot reload), you can instantly see
-the effect of your local edits.
-
-In the command above, we used the environment variable `HUGO_MODULE_WORKSPACE`
-to tell hugo about the local workspace file `docsy.work`. Alternatively, you can
-declare the workspace file inside your settings file `hugo.toml`:
-
-```toml
-[module]
-  workspace = "docsy.work"
-```
-
-Your project's `hugo.toml` file already contains these lines, the directive for
-workspace assignment is commented out, however. Remove the two trailing comment
-characters '//' so that this line takes effect.
-
-## Troubleshooting
-
-As you run the website locally, you may run into the following error:
-
-```console
-$ hugo server
-WARN 2023/06/27 16:59:06 Module "project" is not compatible with this Hugo version; run "hugo mod graph" for more information.
-Start building sites …
-hugo v0.101.0-466fa43c16709b4483689930a4f9ac8add5c9f66+extended windows/amd64 BuildDate=2022-06-16T07:09:16Z VendorInfo=gohugoio
-Error: Error building site: "C:\Users\foo\path\to\docsy-example\content\en\_index.md:5:1": failed to extract shortcode: template for shortcode "blocks/cover" not found
-Built in 27 ms
-```
-
-This error occurs if you are running an outdated version of Hugo. As of docsy
-theme version `v0.12.0`, hugo version `0.146.0` or higher is required. See this
-[section](https://www.docsy.dev/docs/get-started/docsy-as-module/installation-prerequisites/#install-hugo)
-of the user guide for instructions on how to install Hugo.
-
-Or you may be confronted with the following error:
-
-```console
-$ hugo server
-
-INFO 2021/01/21 21:07:55 Using config file:
-Building sites … INFO 2021/01/21 21:07:55 syncing static files to /
-Built in 288 ms
-Error: Error building site: TOCSS: failed to transform "scss/main.scss" (text/x-scss): resource "scss/scss/main.scss_9fadf33d895a46083cdd64396b57ef68" not found in file cache
-```
-
-This error occurs if you have not installed the extended version of Hugo. See
-this
-[section](https://www.docsy.dev/docs/get-started/docsy-as-module/installation-prerequisites/#install-hugo)
-of the user guide for instructions on how to install Hugo.
-
-Or you may encounter the following error:
-
-```console
-$ hugo server
-
-Error: failed to download modules: binary with name "go" not found
-```
-
-This error occurs if the `go` programming language is not available on your
-system. See this
-[section](https://www.docsy.dev/docs/get-started/docsy-as-module/installation-prerequisites/#install-go-language)
-of the user guide for instructions on how to install `go`.
-
-[alternate dashboard]: https://app.netlify.com/sites/goldydocs/deploys
-[deploys]: https://app.netlify.com/sites/docsy-example/deploys
-[Docsy user guide]: https://docsy.dev/docs
-[Docsy]: https://github.com/google/docsy
-[example.docsy.dev]: https://example.docsy.dev
-[Hugo theme module]:
-  https://gohugo.io/hugo-modules/use-modules/#use-a-module-for-a-theme
-[Netlify]: https://netlify.com
-[Docker Compose documentation]: https://docs.docker.com/compose/gettingstarted/
+**Note**: This project is under active development. We're actively building out content and resources for the Indiana Meshtastic community. Contributions, suggestions, and node operators are always welcome!
