@@ -118,42 +118,7 @@ great example.&lt;/p&gt;
 &lt;p&gt;Don&amp;rsquo;t forget to link to your own doc repo rather than our example site! Also
 make sure users can find these guidelines from your doc repo README: either add
 them there and link to them from this page, add them here and link to them from
-the README, or include them in both locations.&lt;/p&gt;</description></item><item><title>Easy documentation with Docsy</title><link>https://hoosiermesh.org/blog/2018/10/06/easy-documentation-with-docsy/</link><pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/blog/2018/10/06/easy-documentation-with-docsy/</guid><description>&lt;p&gt;&lt;strong&gt;This is a typical blog post that includes images.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The front matter specifies the date of the blog post, its title, a short
-description that will be displayed on the blog landing page, and its author.&lt;/p&gt;
-&lt;h2 id="including-images"&gt;Including images&lt;a class="td-heading-self-link" href="#including-images" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Here&amp;rsquo;s an image (&lt;code&gt;featured-sunset-get.png&lt;/code&gt;) that includes a byline and a
-caption.&lt;/p&gt;
-&lt;figure class="card rounded p-2 td-post-card mb-4 mt-4" style="max-width: 610px"&gt;
-&lt;img class="card-img-top" src="https://hoosiermesh.org/blog/2018/10/06/easy-documentation-with-docsy/featured-sunset-get_hu_ee0cc0230b02c472.png" width="600" height="300"&gt;
-&lt;figcaption class="card-body px-0 pt-2 pb-0"&gt;
-&lt;p class="card-text"&gt;
-
- Fetch and scale an image in the upcoming
-Hugo 0.43. &lt;small class="text-body-secondary"&gt;&lt;br/&gt;Photo: Riona MacNamara / CC-BY-CA&lt;/small&gt;
-&lt;/p&gt;</description></item><item><title>Second blog post</title><link>https://hoosiermesh.org/blog/2018/10/06/second-blog-post/</link><pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/blog/2018/10/06/second-blog-post/</guid><description>&lt;p&gt;This is a &lt;strong&gt;placeholder page&lt;/strong&gt;. For an example of the kind of content that can
-be added here, see the &lt;a href="https://hoosiermesh.org/docs/getting-started/example-page/"&gt;example page&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id="welcome"&gt;Welcome!&lt;a class="td-heading-self-link" href="#welcome" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Welcome to the Docsy theme user guide! This guide shows you how to get started
-creating technical documentation sites using Docsy, including site customization
-and how to use Docsy&amp;rsquo;s blocks and templates.&lt;/p&gt;
-&lt;h2 id="what-is-docsy"&gt;What is Docsy?&lt;a class="td-heading-self-link" href="#what-is-docsy" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Docsy is a theme for the &lt;a href="https://gohugo.io/"&gt;Hugo&lt;/a&gt; static site generator that&amp;rsquo;s
-specifically designed for technical documentation sets and has a lot of best
-practices built in. Use Docsy to get a working and reliable documentation site
-up and running fast, and then get back to focusing on great content for your
-users. &lt;a href="https://hoosiermesh.org/about/"&gt;Learn more about Docsy&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Another Great Release</title><link>https://hoosiermesh.org/blog/2018/01/04/another-great-release/</link><pubDate>Thu, 04 Jan 2018 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/blog/2018/01/04/another-great-release/</guid><description>&lt;p&gt;This is a &lt;strong&gt;placeholder page&lt;/strong&gt;. For an example of the kind of content that can
-be added here, see the &lt;a href="https://hoosiermesh.org/docs/getting-started/example-page/"&gt;example page&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id="welcome"&gt;Welcome!&lt;a class="td-heading-self-link" href="#welcome" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Welcome to the Docsy theme user guide! This guide shows you how to get started
-creating technical documentation sites using Docsy, including site customization
-and how to use Docsy&amp;rsquo;s blocks and templates.&lt;/p&gt;
-&lt;h2 id="what-is-docsy"&gt;What is Docsy?&lt;a class="td-heading-self-link" href="#what-is-docsy" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Docsy is a theme for the &lt;a href="https://gohugo.io/"&gt;Hugo&lt;/a&gt; static site generator that&amp;rsquo;s
-specifically designed for technical documentation sets and has a lot of best
-practices built in. Use Docsy to get a working and reliable documentation site
-up and running fast, and then get back to focusing on great content for your
-users. &lt;a href="https://hoosiermesh.org/about/"&gt;Learn more about Docsy&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Example Page</title><link>https://hoosiermesh.org/docs/getting-started/example-page/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/docs/getting-started/example-page/</guid><description>&lt;div class="pageinfo pageinfo-primary"&gt;
+the README, or include them in both locations.&lt;/p&gt;</description></item><item><title>Example Page</title><link>https://hoosiermesh.org/docs/getting-started/example-page/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/docs/getting-started/example-page/</guid><description>&lt;div class="pageinfo pageinfo-primary"&gt;
 &lt;p&gt;This is a placeholder page. Replace it with your own content.&lt;/p&gt;
 
 &lt;/div&gt;
