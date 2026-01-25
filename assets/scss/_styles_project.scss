@@ -7,3 +7,18 @@ https://www.docsy.dev/docs/content/lookandfeel/#project-style-files
 @import 'td/color-adjustments-dark';
 @import 'td/code-dark';
 @import 'td/gcs-search-dark';
+// Make navbar background persistent
+.navbar {
+  background-color: $primary !important;
+}
+
+// Ensure it stays visible even without scroll
+.navbar-light,
+.navbar-dark {
+  background-color: $primary !important;
+}
+
+// Override any transparent states
+.navbar.bg-transparent {
+  background-color: $primary !important;
+}
