@@ -16,18 +16,13 @@ title: Hoosier Mesh
 <a class="btn btn-lg btn-secondary me-3 mb-4" href="https://discord.gg/VrFcGTrw6V">
   Join Discord <i class="fab fa-discord ms-2 "></i>
 </a>
-<p class="lead mt-5">Porridge temperature assessment &mdash; in the cloud!</p>
+<p class="lead mt-5">A community dedicated to building and expanding Meshtastic mesh communication networks across Indiana</p>
 
 {{< blocks/link-down color="info" >}} {{< /blocks/cover >}}
 
 {{% blocks/lead color="primary" %}}
 
-Goldydocs provides a single web UI providing visibility into porridge
-temperature, chair size, and bed softness metrics! You can even find out who's
-been eating **your** porridge.
-
-(Sadly, Goldydocs isn't a real project, but you can use this site as an example
-to create your own real websites with [Docsy](https://docsy.dev))
+Hoosier Mesh is a community-driven initiative focused on promoting the use of open-source mesh communication technologies &mdash; specifically Meshtastic &mdash; to create a resilient, decentralized communication infrastructure throughout the Hoosier state.
 
 {{% /blocks/lead %}}
 
@@ -48,9 +43,9 @@ contributions workflow on **GitHub**. New users are always welcome!
 
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fab fa-x-twitter" title="Follow us on X!" url="https://x.com/docsydocs" %}}
+{{% blocks/feature icon="fab fa-discord" title="Join us on Discord" url="https://x.com/docsydocs" %}}
 
-For announcement of latest features etc.
+Meetups, traceroutes, and other nerdyness!
 
 {{% /blocks/feature %}}
 
