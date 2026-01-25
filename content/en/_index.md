@@ -28,19 +28,19 @@ Hoosier Mesh is a community-driven initiative focused on promoting the use of op
 
 {{% blocks/section color="white" type="row" %}}
 
-{{% blocks/feature icon="fa-circle-question" title="What is all this?" url="https://meshtastic.org" %}}
+{{% blocks/feature icon="fa-circle-question" title="What the mesh?" url="https://meshtastic.org" %}}
 
-Meshtastic isn't just in Indiana &mdash; it's everywhere! Learn more about Meshtastic on their official website.
+Learn more about Meshtastic here.
 
 {{% /blocks/feature %}}
 
 {{% blocks/feature icon="fab fa-github" title="Contributions welcome!" url="https://github.com/google/docsy-example" %}}
 
-Help us build this website
+Want to write a guide or add info about your cool node? Contribute to this site!
 
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fas fa-user-group" title="Join our community" url="https://x.com/docsydocs" %}}
+{{% blocks/feature icon="fas fa-user-group" title="Join our ranks" url="https://x.com/docsydocs" %}}
 
 Visit the community page for ways to connect with user mesh users
 
