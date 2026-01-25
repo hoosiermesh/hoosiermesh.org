@@ -26,6 +26,8 @@ Hoosier Mesh is a community-driven initiative focused on promoting the use of op
 
 {{% /blocks/lead %}}
 
+{{% blocks/section color="white" type="row" %}}
+
 {{% blocks/feature icon="fa-circle-question" title="What the mesh?" url="https://meshtastic.org" %}}
 
 Learn more about Meshtastic here
