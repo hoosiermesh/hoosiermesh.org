@@ -18,7 +18,7 @@ title: Hoosier Mesh
 </a>
 <p class="lead mt-5">A community dedicated to building and expanding Meshtastic mesh communication networks across Indiana</p>
 
-{{< blocks/link-down color="white" >}} {{< /blocks/cover >}}
+{{< /blocks/cover >}}
 
 {{% blocks/lead color="primary" %}}
 
