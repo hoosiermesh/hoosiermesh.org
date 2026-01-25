@@ -28,24 +28,21 @@ Hoosier Mesh is a community-driven initiative focused on promoting the use of op
 
 {{% blocks/section color="white" type="row" %}}
 
-{{% blocks/feature icon="fa-lightbulb" title="New chair metrics!" %}}
+{{% blocks/feature icon="fa-circle-question" title="What is all this?" url="https://meshtastic.org" %}}
 
-The Goldydocs UI now shows chair size metrics by default.
-
-Please follow this space for updates!
+Meshtastic isn't just in Indiana &mdash; it's everywhere! Learn more about Meshtastic on their official website.
 
 {{% /blocks/feature %}}
 
 {{% blocks/feature icon="fab fa-github" title="Contributions welcome!" url="https://github.com/google/docsy-example" %}}
 
-We do a [Pull Request](https://github.com/google/docsy-example/pulls)
-contributions workflow on **GitHub**. New users are always welcome!
+Help us build this website
 
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fab fa-discord" title="Join us on Discord" url="https://x.com/docsydocs" %}}
+{{% blocks/feature icon="fab fa-people-group" title="Join our community" url="https://x.com/docsydocs" %}}
 
-Meetups, traceroutes, and other nerdyness!
+Visit the community page for ways to connect with user mesh users
 
 {{% /blocks/feature %}}
 
