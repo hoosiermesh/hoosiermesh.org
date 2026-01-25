@@ -40,7 +40,7 @@ Help us build this website
 
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fab fa-people-group" title="Join our community" url="https://x.com/docsydocs" url_blank="true" %}}
+{{% blocks/feature icon="fas fa-user-group" title="Join our community" url="https://x.com/docsydocs" url_blank="true" %}}
 
 Visit the community page for ways to connect with user mesh users
 
