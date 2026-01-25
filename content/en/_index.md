@@ -36,7 +36,7 @@ Learn more about Meshtastic here
 
 {{% blocks/feature icon="fab fa-github" title="Contributions welcome!" url="https://github.com/google/docsy-example" %}}
 
-Contribute to this website
+You too can improve this website
 
 {{% /blocks/feature %}}
 
