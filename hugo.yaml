@@ -80,8 +80,6 @@ params:
     # set taxonomyPageHeader = [] to hide taxonomies on the page headers
     taxonomyPageHeader: [tags, categories]
 
-  privacy_policy: https://policies.google.com/privacy
-
   # First one is picked as the Twitter card image if not set on page.
   # images: [images/project-illustration.png]
 
@@ -127,7 +125,7 @@ params:
 
   copyright:
     authors:
-      Hoosier Mesh | Built with [Docsy](https://www.docsy.dev) | Powered by [MEshtastic](https://meshtastic.org)
+      Hoosier Mesh | Built with [Docsy](https://www.docsy.dev) | Powered by [Meshtastic](https://meshtastic.org)
     from_year: 2026
 
   # User interface configuration
