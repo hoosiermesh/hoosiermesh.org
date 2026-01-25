@@ -27,19 +27,19 @@ Hoosier Mesh is a community-driven initiative focused on promoting the use of [M
 
 {{% blocks/section color="white" type="row" %}}
 
-{{% blocks/feature icon="fa-circle-question" title="What the mesh?" url="https://meshtastic.org" %}}
+{{% blocks/feature icon="fa-circle-question" title="What the mesh?" url="https://meshtastic.org/docs/introduction" %}}
 
 Learn more about Meshtastic here
 
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fab fa-github" title="Contributions welcome!" url="https://github.com/google/docsy-example" %}}
+{{% blocks/feature icon="fab fa-github" title="Contributions welcome!" url="https://github.com/hoosiermesh/hoosiermesh.org" %}}
 
 You too can improve this website
 
 {{% /blocks/feature %}}
 
-{{% blocks/feature icon="fas fa-user-group" title="Join our ranks" url="https://x.com/docsydocs" %}}
+{{% blocks/feature icon="fas fa-user-group" title="Join our ranks" url="https://hoosiermesh.org/community" %}}
 
 Connect with user mesh users
 
