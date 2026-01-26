@@ -157,7 +157,7 @@ users. &lt;a href="https://hoosiermesh.org/about/"&gt;Learn more about Docsy&lt;
  }
 }
 &lt;/style&gt;
-&lt;section id="td-cover-block-0" class="row td-cover-block td-cover-block--height-auto js-td-cover td-overlay td-overlay--dark -bg-dark"&gt;
+&lt;section id="td-cover-block-0" class="row td-cover-block td-cover-block--height-auto td-overlay td-overlay--dark -bg-dark"&gt;
  &lt;div class="col-12"&gt;
  &lt;div class="container td-overlay__inner"&gt;
  &lt;div class="text-center"&gt;
