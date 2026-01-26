@@ -17,3 +17,8 @@ https://www.docsy.dev/docs/content/lookandfeel/#project-style-files
 .navbar-dark {
   background-color: $primary !important;
 }
+
+// Always show search box on all screen sizes
+.td-navbar__search {
+  display: block !important;
+}
