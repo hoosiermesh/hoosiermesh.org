@@ -10,28 +10,10 @@ https://www.docsy.dev/docs/content/lookandfeel/#project-style-files
 // Make navbar background persistent
 .navbar {
   background-color: $primary !important;
-  position: relative;
-  z-index: 1030 !important;
 }
 
 // Ensure it stays visible even without scroll
 .navbar-light,
 .navbar-dark {
-  background-color: $primary !important;
-  z-index: 1030 !important;
-}
-
-// Ensure search dropdown appears above cover
-.DocSearch {
-  z-index: 1031 !important;
-}
-
-.DocSearch-Container {
-  z-index: 1031 !important;
-}
-
-
-// Override any transparent states
-.navbar.bg-transparent {
   background-color: $primary !important;
 }
