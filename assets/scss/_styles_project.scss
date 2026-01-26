@@ -7,3 +7,10 @@ https://www.docsy.dev/docs/content/lookandfeel/#project-style-files
 @import 'td/color-adjustments-dark';
 @import 'td/code-dark';
 @import 'td/gcs-search-dark';
+
+// Keep navbar opaque (e.g., on homepage cover)
+.navbar,
+.navbar-light,
+.navbar-dark {
+	background-color: $primary !important;
+}
