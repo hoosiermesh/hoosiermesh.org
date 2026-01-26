@@ -1,0 +1,14 @@
+{{ partial "hooks/head-end.html" . }}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3" />
+<script async src="https://cdn.jsdelivr.net/npm/@docsearch/js@3"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    docsearch({
+      appId: '{{ site.Params.search.algolia.appId }}',
+      apiKey: '{{ site.Params.search.algolia.apiKey }}',
+      indexName: '{{ site.Params.search.algolia.indexName }}',
+      container: '#docsearch',
+      debug: false
+    });
+  });
+</script>
