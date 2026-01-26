@@ -79,7 +79,6 @@ params:
 
     # set taxonomyPageHeader = [] to hide taxonomies on the page headers
     taxonomyPageHeader: [tags, categories]
-  offlineSearch: true
       
   # First one is picked as the Twitter card image if not set on page.
   # images: [images/project-illustration.png]
@@ -118,7 +117,7 @@ params:
   # Google Custom Search Engine ID. Remove or comment out to disable search.
 
   # Enable Lunr.js offline search
-  offlineSearch: false
+  offlineSearch: true
 
   # Enable syntax highlighting and copy buttons on code blocks with Prism
   prism_syntax_highlighting: false
