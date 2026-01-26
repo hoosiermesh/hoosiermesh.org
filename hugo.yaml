@@ -79,11 +79,6 @@ params:
 
     # set taxonomyPageHeader = [] to hide taxonomies on the page headers
     taxonomyPageHeader: [tags, categories]
-  search:
-    algolia:
-      appId: T4WQXYGAXM
-      apiKey: 7ba7b564f16516a464ba6409888c704b
-      indexName: docsearch
       
   # First one is picked as the Twitter card image if not set on page.
   # images: [images/project-illustration.png]
@@ -139,7 +134,7 @@ params:
     # Set to false if you don't want to display a logo (/assets/icons/logo.svg) in the top navbar
     navbar_logo: true
     # Set to true if you don't want the top navbar to be translucent when over a `block/cover`, like on the homepage.
-    navbar_translucent_over_cover_disable: true
+    navbar_translucent_over_cover_disable: false
     # Enable to show the side bar menu in its compact state.
     sidebar_menu_compact: true
     # Set to true to hide the sidebar search box (the top nav search box will still be displayed if search is enabled)

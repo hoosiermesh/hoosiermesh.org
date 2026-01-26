@@ -7,27 +7,3 @@ https://www.docsy.dev/docs/content/lookandfeel/#project-style-files
 @import 'td/color-adjustments-dark';
 @import 'td/code-dark';
 @import 'td/gcs-search-dark';
-// Make navbar background persistent
-.navbar {
-  background-color: $primary !important;
-}
-
-// Ensure it stays visible even without scroll
-.navbar-light,
-.navbar-dark {
-  background-color: $primary !important;
-}
-
-// Always show search box on all screen sizes
-.td-navbar__search {
-  display: block !important;
-}
-
-// Override Bootstrap's d-none class for search
-.d-none.td-navbar__search {
-  display: block !important;
-}
-
-.d-lg-block.td-navbar__search {
-  display: block !important;
-}
