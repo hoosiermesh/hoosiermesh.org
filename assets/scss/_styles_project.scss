@@ -22,3 +22,12 @@ https://www.docsy.dev/docs/content/lookandfeel/#project-style-files
 .td-navbar__search {
   display: block !important;
 }
+
+// Override Bootstrap's d-none class for search
+.d-none.td-navbar__search {
+  display: block !important;
+}
+
+.d-lg-block.td-navbar__search {
+  display: block !important;
+}
