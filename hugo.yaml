@@ -79,7 +79,12 @@ params:
 
     # set taxonomyPageHeader = [] to hide taxonomies on the page headers
     taxonomyPageHeader: [tags, categories]
-
+  search:
+    algolia:
+      appId: T4WQXYGAXM
+      apiKey: 7ba7b564f16516a464ba6409888c704b
+      indexName: docsearch
+      
   # First one is picked as the Twitter card image if not set on page.
   # images: [images/project-illustration.png]
 
@@ -115,7 +120,6 @@ params:
   github_branch: main
 
   # Google Custom Search Engine ID. Remove or comment out to disable search.
-  gcs_engine_id: d72aa9b2712488cc3
 
   # Enable Lunr.js offline search
   offlineSearch: false
