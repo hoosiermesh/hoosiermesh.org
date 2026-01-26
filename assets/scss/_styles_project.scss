@@ -7,8 +7,3 @@ https://www.docsy.dev/docs/content/lookandfeel/#project-style-files
 @import 'td/color-adjustments-dark';
 @import 'td/code-dark';
 @import 'td/gcs-search-dark';
-
-// Ensure the top-nav search is visible on all pages (and breakpoints)
-.td-navbar__search {
-	display: block !important;
-}
