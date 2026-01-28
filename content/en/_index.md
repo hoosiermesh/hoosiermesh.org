@@ -47,14 +47,8 @@ Connect with user mesh users
 
 {{% /blocks/section %}}
 
-{{% blocks/section type="row text-center" %}}
+{{% blocks/section type="row text-center" color="secondary" %}}
 
 # This is the second section
-
-{{% /blocks/section %}}
-
-{{% blocks/section type="row text-center" %}}
-
-# This is the another section with center alignment
 
 {{% /blocks/section %}}
