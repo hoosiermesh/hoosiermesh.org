@@ -46,3 +46,15 @@ Connect with user mesh users
 {{% /blocks/feature %}}
 
 {{% /blocks/section %}}
+
+{{% blocks/section type="row text-center" %}}
+
+# This is the second section
+
+{{% /blocks/section %}}
+
+{{% blocks/section type="row text-center" %}}
+
+# This is the another section with center alignment
+
+{{% /blocks/section %}}
