@@ -49,6 +49,13 @@ Connect with user mesh users
 
 {{% blocks/section type="row text-center" color="secondary" %}}
 
-# This is the second section
+# Our friends
+
+<div style="display: flex; justify-content: center; align-items: center; gap: 2rem; flex-wrap: wrap; margin-top: 2rem;">
+  <img src="images/btownmesh.png" alt="BTown Mesh" style="max-height: 100px;">
+  <img src="images/cimn.png" alt="CIMN" style="max-height: 100px;">
+  <img src="images/nwimesh.png" alt="NWI Mesh" style="max-height: 100px;">
+  <img src="images/simnet.png" alt="SIMNET" style="max-height: 100px;">
+</div>
 
 {{% /blocks/section %}}
