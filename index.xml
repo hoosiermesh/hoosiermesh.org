@@ -118,23 +118,33 @@ great example.&lt;/p&gt;
 &lt;p&gt;Don&amp;rsquo;t forget to link to your own doc repo rather than our example site! Also
 make sure users can find these guidelines from your doc repo README: either add
 them there and link to them from this page, add them here and link to them from
-the README, or include them in both locations.&lt;/p&gt;</description></item><item><title>Example Page</title><link>https://hoosiermesh.org/docs/getting-started/example-page/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/docs/getting-started/example-page/</guid><description>&lt;div class="pageinfo pageinfo-primary"&gt;
-&lt;p&gt;This is a placeholder page. Replace it with your own content.&lt;/p&gt;
-
-&lt;/div&gt;
-
-&lt;p&gt;Text can be &lt;strong&gt;bold&lt;/strong&gt;, &lt;em&gt;italic&lt;/em&gt;, or &lt;del&gt;strikethrough&lt;/del&gt;. &lt;a href="https://gohugo.io"&gt;Links&lt;/a&gt;
-should be blue with no underlines (unless hovered over).&lt;/p&gt;
-&lt;p&gt;There should be whitespace between paragraphs. Vape migas chillwave sriracha
-poutine try-hard distillery. Tattooed shabby chic small batch, pabst art party
-heirloom letterpress air plant pop-up. Sustainable chia skateboard art party
-banjo cardigan normcore affogato vexillologist quinoa meggings man bun master
-cleanse shoreditch readymade. Yuccie prism four dollar toast tbh cardigan
-iPhone, tumblr listicle live-edge VHS. Pug lyft normcore hot chicken biodiesel,
-actually keffiyeh thundercats photo booth pour-over twee fam food truck
-microdosing banh mi. Vice activated charcoal raclette unicorn live-edge
-post-ironic. Heirloom vexillologist coloring book, beard deep v letterpress echo
-park humblebrag tilde.&lt;/p&gt;</description></item><item><title>Example Page</title><link>https://hoosiermesh.org/docs/getting-started/get-a-node/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/docs/getting-started/get-a-node/</guid><description>&lt;div class="pageinfo pageinfo-primary"&gt;
+the README, or include them in both locations.&lt;/p&gt;</description></item><item><title>Get a node</title><link>https://hoosiermesh.org/docs/getting-started/get-a-node/</link><pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/docs/getting-started/get-a-node/</guid><description>&lt;h1 id="meshtastic-parts-source-list"&gt;Meshtastic Parts Source List&lt;a class="td-heading-self-link" href="#meshtastic-parts-source-list" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;h2 id="large-mainstream-brands"&gt;Large (Mainstream) Brands&lt;a class="td-heading-self-link" href="#large-mainstream-brands" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Heltec&lt;/strong&gt; - &lt;a href="https://heltec.org/product-category/lora/meshtastic/"&gt;https://heltec.org/product-category/lora/meshtastic/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RAK Wireless&lt;/strong&gt; - &lt;a href="https://www.rakwireless.com/en-us"&gt;https://www.rakwireless.com/en-us&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lilygo&lt;/strong&gt; - &lt;a href="https://lilygo.cc/collections/lilygo-with-meshtastic"&gt;https://lilygo.cc/collections/lilygo-with-meshtastic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Seeed Studios&lt;/strong&gt; - &lt;a href="https://www.seeedstudio.com/meshtastic-products"&gt;https://www.seeedstudio.com/meshtastic-products&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="other-brands--sellers--websites"&gt;Other Brands / Sellers / Websites&lt;a class="td-heading-self-link" href="#other-brands--sellers--websites" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Meshnology&lt;/strong&gt; - &lt;a href="https://meshnology.com/"&gt;https://meshnology.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Muzi Works&lt;/strong&gt; - &lt;a href="https://muzi.works/"&gt;https://muzi.works/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Atlavox&lt;/strong&gt; - &lt;a href="https://atlavox.com/"&gt;https://atlavox.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Elecrow&lt;/strong&gt; - &lt;a href="https://www.elecrow.com/lora/meshtastic.html"&gt;https://www.elecrow.com/lora/meshtastic.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;B&amp;amp;Q (G2 Station node)&lt;/strong&gt; - &lt;a href="https://shop.uniteng.com/product/meshtastic-mesh-device-station-edition/"&gt;https://shop.uniteng.com/product/meshtastic-mesh-device-station-edition/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LowMesh&lt;/strong&gt; - &lt;a href="https://lowmesh.com/"&gt;https://lowmesh.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Spec5&lt;/strong&gt; - &lt;a href="https://www.etsy.com/shop/SpecFive"&gt;https://www.etsy.com/shop/SpecFive&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="retail-websites"&gt;Retail Websites&lt;a class="td-heading-self-link" href="#retail-websites" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Rokland&lt;/strong&gt; - &lt;a href="https://store.rokland.com/pages/meshtastic-hardware-rak-lilygo"&gt;https://store.rokland.com/pages/meshtastic-hardware-rak-lilygo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Amazon&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="popular-nodes"&gt;Popular Nodes&lt;a class="td-heading-self-link" href="#popular-nodes" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="alert alert-primary" role="alert"&gt;
+&lt;p&gt;This is not a list of every node, just a good sampling of the various brands.&lt;/div&gt;&lt;/p&gt;</description></item><item><title>Example Page</title><link>https://hoosiermesh.org/docs/getting-started/example-page/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/docs/getting-started/example-page/</guid><description>&lt;div class="pageinfo pageinfo-primary"&gt;
 &lt;p&gt;This is a placeholder page. Replace it with your own content.&lt;/p&gt;
 
 &lt;/div&gt;
