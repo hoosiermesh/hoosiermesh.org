@@ -1,6 +1,6 @@
 ---
 title: Get a node
-date: 02-02-2026
+date: 2026-02-02
 description: >
   A list of potential nodes to get you started on your Meshtastic journey.
 categories: [Nodes]
