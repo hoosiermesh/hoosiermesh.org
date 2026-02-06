@@ -12,7 +12,7 @@ title: Hoosier Mesh
 {{< blocks/cover image_anchor="top" height="max" >}}
 
 <h1 class="display-1">Hoosier Mesh</h1>
-<p class="lead">A node in every home</p>
+<p class="lead">Community-powered connectivity</p>
 
 <a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/getting-started/get-a-node/">
   Get a node <i class="fas fa-arrow-alt-circle-right ms-2"></i>
