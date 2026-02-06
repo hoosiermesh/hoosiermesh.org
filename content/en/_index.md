@@ -7,21 +7,6 @@ title: Hoosier Mesh
     display: none;
   }
 
-  .td-home .td-cover-block {
-    height: 520px;
-    min-height: 520px;
-  }
-
-  .td-home .td-cover-block .col-12,
-  .td-home .td-cover-block .container {
-    height: 100%;
-  }
-
-  .td-home .td-cover-block .container {
-    position: relative;
-    z-index: 2;
-  }
-
 </style>
 
 {{< blocks/cover image_anchor="top" height="max" >}}
