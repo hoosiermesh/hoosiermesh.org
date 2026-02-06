@@ -44,15 +44,15 @@ information on using pull requests.&lt;/p&gt;</description></item><item><title>A
 &lt;hr&gt;
 &lt;h2 id="popular-device-models"&gt;Popular Device Models&lt;a class="td-heading-self-link" href="#popular-device-models" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;Choosing a Chipset&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;ESP32&lt;/strong&gt;: Better for grid-powered setups with WiFi access. Lower cost, more features, but higher power consumption.&lt;/p&gt;</description></item><item><title>About Hoosier Mesh</title><link>https://hoosiermesh.org/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/about/</guid><description>&lt;link rel="preload" as="image" href="https://hoosiermesh.org/about/featured-background_hu_65ae10efe7b447b.webp" media="(max-width: 1200px)"&gt;
-&lt;link rel="preload" as="image" href="https://hoosiermesh.org/about/featured-background_hu_84920aee4f91fc7d.webp" media="(min-width: 1200px)"&gt;
+&lt;p&gt;&lt;strong&gt;ESP32&lt;/strong&gt;: Better for grid-powered setups with WiFi access. Lower cost, more features, but higher power consumption.&lt;/p&gt;</description></item><item><title>About Hoosier Mesh</title><link>https://hoosiermesh.org/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/about/</guid><description>&lt;link rel="preload" as="image" href="https://hoosiermesh.org/about/featured-background_hu_a7d3de7969478a25.webp" media="(max-width: 1200px)"&gt;
+&lt;link rel="preload" as="image" href="https://hoosiermesh.org/about/featured-background_hu_3fd6f422517e017b.webp" media="(min-width: 1200px)"&gt;
 &lt;style&gt;
 #td-cover-block-0 {
- background-image: url(/about/featured-background_hu_65ae10efe7b447b.webp);
+ background-image: url(/about/featured-background_hu_a7d3de7969478a25.webp);
 }
 @media only screen and (min-width: 1200px) {
  #td-cover-block-0 {
- background-image: url(/about/featured-background_hu_84920aee4f91fc7d.webp);
+ background-image: url(/about/featured-background_hu_3fd6f422517e017b.webp);
  }
 }
 &lt;/style&gt;
