@@ -5,6 +5,7 @@ description: >
   A list of potential nodes to get you started on your Meshtastic journey.
 categories: [Getting Started]
 tags: [beginner, hardware, buying-guide]
+weight: 2
 ---
 
 Ready to join the mesh? This guide will help you find the right Meshtastic device for your needs. Whether you're looking for a portable tracker, a fixed solar repeater, or something in between, there's a device for you.

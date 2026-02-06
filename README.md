@@ -2,7 +2,7 @@
 
 # Hoosier Mesh
 
-This repository hosts the Hoosier Mesh website. It shares community info, setup guides, and resources for building a resilient Meshtastic network across Indiana.
+This repository hosts the [Hoosier Mesh website](https://hoosiermesh.org/). It shares community info, setup guides, and resources for building a resilient Meshtastic network across Indiana.
 
 ## About This Project
 
@@ -12,7 +12,7 @@ Hoosier Mesh is a community-driven initiative focused on promoting the use of op
 
 We welcome contributions from the Meshtastic community. The fastest way to help is to use the **Edit this page** button on [hoosiermesh.org](https://hoosiermesh.org) and submit a pull request directly in GitHub. You can also open issues for corrections or new content ideas.
 
-For detailed guidelines and development notes, see [CONTRIBUTING.md](CONTRIBUTING.md).
+For detailed guidelines and development notes, see the [contribution guidelines](https://hoosiermesh.org/docs/contribution-guidelines).
 
 ## License
 
