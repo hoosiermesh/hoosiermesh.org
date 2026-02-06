@@ -7,14 +7,12 @@ title: Hoosier Mesh
     display: none;
   }
 
-  .td-home .td-cover-block {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+  .td-home .td-cover-block h1 {
+    display: none;
   }
 </style>
 
-{{< blocks/cover title="Welcome to Hoosier Mesh" image_anchor="top" height="auto" >}}
+{{< blocks/cover title="" image_anchor="top" height="auto" >}}
 
 <a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/getting-started/get-a-node/">
   Get a node <i class="fas fa-arrow-alt-circle-right ms-2"></i>
