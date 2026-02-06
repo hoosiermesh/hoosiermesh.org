@@ -6,6 +6,11 @@ title: Hoosier Mesh
   .td-heading-self-link {
     display: none;
   }
+
+  .td-home .td-cover-block {
+    height: 520px;
+    min-height: 520px;
+  }
 </style>
 
 {{< blocks/cover image_anchor="top" height="max" >}}
