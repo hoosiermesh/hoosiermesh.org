@@ -1,17 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Beginner on Hoosier Mesh</title><link>https://hoosiermesh.org/tags/beginner/</link><description>Recent content in Beginner on Hoosier Mesh</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 06 Feb 2026 04:37:37 +0000</lastBuildDate><atom:link href="https://hoosiermesh.org/tags/beginner/index.xml" rel="self" type="application/rss+xml"/><item><title>Getting Started</title><link>https://hoosiermesh.org/docs/getting-started/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/docs/getting-started/</guid><description>&lt;h2 id="before-you-begin"&gt;Before You Begin&lt;a class="td-heading-self-link" href="#before-you-begin" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Beginner on Hoosier Mesh</title><link>https://hoosiermesh.org/tags/beginner/</link><description>Recent content in Beginner on Hoosier Mesh</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 06 Feb 2026 19:29:04 +0000</lastBuildDate><atom:link href="https://hoosiermesh.org/tags/beginner/index.xml" rel="self" type="application/rss+xml"/><item><title>Start Here</title><link>https://hoosiermesh.org/docs/getting-started/start-here/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/docs/getting-started/start-here/</guid><description>&lt;h2 id="before-you-begin"&gt;Before you begin&lt;a class="td-heading-self-link" href="#before-you-begin" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;div class="alert alert-danger" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;Critical Safety Warning&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;Never power on your device without attaching an antenna!&lt;/strong&gt; Powering on the radio without an antenna attached could damage the radio chip.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Never power on your device without attaching an antenna!&lt;/strong&gt; Powering on the
+radio without an antenna attached could damage the radio chip.&lt;/p&gt;
 &lt;/div&gt;
-&lt;h3 id="verify-your-data-cable"&gt;Verify Your Data Cable&lt;a class="td-heading-self-link" href="#verify-your-data-cable" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Before connecting your device to your computer, make sure your USB cable supports both charging AND data transfer. Some cables are charge-only and won&amp;rsquo;t work for flashing firmware.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;To verify your cable:&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id="verify-your-data-cable"&gt;Verify your data cable&lt;a class="td-heading-self-link" href="#verify-your-data-cable" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Before connecting your device to your computer, make sure your USB cable
+supports both charging and data transfer. Some cables are charge-only and
+won&amp;rsquo;t work for flashing firmware.&lt;/p&gt;
+&lt;p&gt;To verify your cable:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Try connecting it to your phone or another device&lt;/li&gt;
 &lt;li&gt;Attempt to copy a file to or from the device&lt;/li&gt;
 &lt;li&gt;If file transfer works, your cable can also transfer data and is ready to use&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="step-1-identify-your-board"&gt;Step 1: Identify Your Board&lt;a class="td-heading-self-link" href="#step-1-identify-your-board" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Before you begin, you&amp;rsquo;ll need to decide on your first device. Check out our &lt;a href="https://hoosiermesh.org/docs/getting-started/get-a-node/"&gt;Get a Node&lt;/a&gt; guide to help you choose the right hardware for your needs and budget.&lt;/p&gt;</description></item><item><title>Get a node</title><link>https://hoosiermesh.org/docs/getting-started/get-a-node/</link><pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/docs/getting-started/get-a-node/</guid><description>&lt;p&gt;Ready to join the mesh? This guide will help you find the right Meshtastic device for your needs. Whether you&amp;rsquo;re looking for a portable tracker, a fixed solar repeater, or something in between, there&amp;rsquo;s a device for you.&lt;/p&gt;
+&lt;h2 id="identify-your-board"&gt;Identify your board&lt;a class="td-heading-self-link" href="#identify-your-board" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Before you begin, decide on your first device. Check out the
+&lt;a href="https://hoosiermesh.org/docs/getting-started/get-a-node/"&gt;Get a Node&lt;/a&gt; guide to help you choose the
+right hardware for your needs and budget.&lt;/p&gt;</description></item><item><title>Get a node</title><link>https://hoosiermesh.org/docs/getting-started/get-a-node/</link><pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/docs/getting-started/get-a-node/</guid><description>&lt;p&gt;Ready to join the mesh? This guide will help you find the right Meshtastic device for your needs. Whether you&amp;rsquo;re looking for a portable tracker, a fixed solar repeater, or something in between, there&amp;rsquo;s a device for you.&lt;/p&gt;
 &lt;h2 id="where-to-buy"&gt;Where to Buy&lt;a class="td-heading-self-link" href="#where-to-buy" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;h3 id="official-partner-brands"&gt;Official Partner Brands&lt;a class="td-heading-self-link" href="#official-partner-brands" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;These manufacturers produce officially supported Meshtastic hardware with excellent documentation and community support:&lt;/p&gt;
@@ -40,4 +45,15 @@
 &lt;hr&gt;
 &lt;h2 id="popular-device-models"&gt;Popular Device Models&lt;a class="td-heading-self-link" href="#popular-device-models" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;Choosing a Chipset&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;ESP32&lt;/strong&gt;: Better for grid-powered setups with WiFi access. Lower cost, more features, but higher power consumption.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;&lt;strong&gt;ESP32&lt;/strong&gt;: Better for grid-powered setups with WiFi access. Lower cost, more features, but higher power consumption.&lt;/p&gt;</description></item><item><title>Getting Started</title><link>https://hoosiermesh.org/docs/getting-started/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/docs/getting-started/</guid><description>&lt;p&gt;Welcome to Hoosier Mesh. This getting started guide is broken into short steps
+so you can move at your own pace.&lt;/p&gt;
+&lt;h2 id="start-here"&gt;Start here&lt;a class="td-heading-self-link" href="#start-here" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href="https://hoosiermesh.org/docs/getting-started/start-here/"&gt;Start here&lt;/a&gt; - Safety, cables, and device basics&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://hoosiermesh.org/docs/getting-started/get-a-node/"&gt;Get a node&lt;/a&gt; - Hardware options and buying guidance&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://hoosiermesh.org/docs/getting-started/flash-firmware/"&gt;Flash firmware&lt;/a&gt; - Drivers and the web flasher&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://hoosiermesh.org/docs/getting-started/initial-setup/"&gt;Initial setup&lt;/a&gt; - Core configuration for Indiana&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://hoosiermesh.org/docs/getting-started/use-the-app/"&gt;Use the app&lt;/a&gt; - Pairing and basic features&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://hoosiermesh.org/docs/getting-started/go-further/"&gt;Go further&lt;/a&gt; - Antennas, tools, and resources&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://hoosiermesh.org/docs/getting-started/local-community/"&gt;Local community&lt;/a&gt; - Maps, networks, and help&lt;/li&gt;
+&lt;/ol&gt;</description></item></channel></rss>

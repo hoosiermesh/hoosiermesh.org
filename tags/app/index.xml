@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>App on Hoosier Mesh</title><link>https://hoosiermesh.org/tags/app/</link><description>Recent content in App on Hoosier Mesh</description><generator>Hugo</generator><language>en</language><atom:link href="https://hoosiermesh.org/tags/app/index.xml" rel="self" type="application/rss+xml"/><item><title>Use the App</title><link>https://hoosiermesh.org/docs/getting-started/use-the-app/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/docs/getting-started/use-the-app/</guid><description>&lt;p&gt;Most people use the official Meshtastic mobile app to pair, configure, and
+message from their node. Start with the official app and work through the
+basic setup and pairing steps.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://meshtastic.org/docs/introduction/"&gt;Meshtastic Official Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://play.google.com/store/apps/details?id=com.geeksville.mesh"&gt;Meshtastic Android Client&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://apps.apple.com/us/app/meshtastic/id1516916591"&gt;Meshtastic iOS App&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

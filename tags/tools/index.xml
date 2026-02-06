@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tools on Hoosier Mesh</title><link>https://hoosiermesh.org/tags/tools/</link><description>Recent content in Tools on Hoosier Mesh</description><generator>Hugo</generator><language>en</language><atom:link href="https://hoosiermesh.org/tags/tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Go Further</title><link>https://hoosiermesh.org/docs/getting-started/go-further/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/docs/getting-started/go-further/</guid><description>&lt;h2 id="configuration-guides"&gt;Configuration guides&lt;a class="td-heading-self-link" href="#configuration-guides" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://meshtastic.org/docs/introduction/"&gt;Meshtastic Official Documentation&lt;/a&gt; - Comprehensive official docs&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://m.youtube.com/@CommsChannel"&gt;CommsChannel on YouTube&lt;/a&gt; - Video walkthroughs of radio setup and configuration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="upgrade-your-antenna"&gt;Upgrade your antenna&lt;a class="td-heading-self-link" href="#upgrade-your-antenna" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Once you&amp;rsquo;re up and running, consider upgrading your antenna for better range
+and performance. Check what other community members are using and discover
+options in the &lt;a href="https://github.com/meshtastic/antenna-reports"&gt;Meshtastic Antenna Reports&lt;/a&gt;
+repository.&lt;/p&gt;
+&lt;h2 id="helpful-tools"&gt;Helpful tools&lt;a class="td-heading-self-link" href="#helpful-tools" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id="official-tools"&gt;Official tools&lt;a class="td-heading-self-link" href="#official-tools" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://flasher.meshtastic.org"&gt;Meshtastic Flasher&lt;/a&gt; - Web-based firmware flasher&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/meshtastic"&gt;Meshtastic GitHub&lt;/a&gt; - Source code and development&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://site.meshtastic.org"&gt;Meshtastic Site Survey&lt;/a&gt; - Plan your mesh coverage&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://nightly.link/meshtastic/firmware/workflows/main_matrix/master"&gt;Nightly Builds&lt;/a&gt; - Advanced users only&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="maps-and-monitoring"&gt;Maps and monitoring&lt;a class="td-heading-self-link" href="#maps-and-monitoring" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://meshmap.net/"&gt;MeshMap&lt;/a&gt; - Meshtastic MQTT node map with root topic information&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://meshtastic.liamcottle.net/"&gt;Liamcottle&amp;rsquo;s Meshtastic Map&lt;/a&gt; - Alternative mesh visualization&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://meshsense.affirmatech.com/"&gt;MeshSense Map&lt;/a&gt; - Additional mesh visualization&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.scadacore.com/tools/rf-path/rf-line-of-sight/"&gt;RF Line of Sight Tool&lt;/a&gt; - Plan RF coverage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="mobile-apps"&gt;Mobile apps&lt;a class="td-heading-self-link" href="#mobile-apps" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;iOS/macOS&lt;/strong&gt;: &lt;a href="https://apps.apple.com/us/app/meshscope/id6749806329"&gt;MeshScope&lt;/a&gt;, &lt;a href="https://apps.apple.com/us/app/mesh-world/id6747457936"&gt;Mesh World&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Android&lt;/strong&gt;: &lt;a href="https://play.google.com/store/apps/details?id=com.geeksville.mesh"&gt;Meshtastic Android Client&lt;/a&gt;, &lt;a href="https://obtainium.imranr.dev/"&gt;Obtanium&lt;/a&gt; (advanced users)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OTA updates&lt;/strong&gt;: &lt;a href="https://apps.apple.com/us/app/nrf-device-firmware-update/id1624454660"&gt;nRF Connect for iOS&lt;/a&gt;, &lt;a href="https://github.com/NordicSemiconductor/Android-nRF-Connect/releases/tag/v4.24.3"&gt;nRF Connect for Android&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="other-tools"&gt;Other tools&lt;a class="td-heading-self-link" href="#other-tools" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://mqtt-explorer.com/"&gt;MQTT Explorer&lt;/a&gt; - Monitor MQTT traffic without a node&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://affirmatech.com/meshsense"&gt;MeshSense App&lt;/a&gt; - Advanced Meshtastic client&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://site.meshtastic.org"&gt;Site Survey Tool&lt;/a&gt; - Plan your mesh coverage and antenna placement&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For more tools and resources, see the &lt;a href="https://hoosiermesh.org/docs/resources/"&gt;Resources page&lt;/a&gt;.&lt;/p&gt;</description></item></channel></rss>

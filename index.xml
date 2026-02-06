@@ -1,21 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hoosier Mesh</title><link>https://hoosiermesh.org/</link><description>Recent content on Hoosier Mesh</description><generator>Hugo</generator><language>en</language><atom:link href="https://hoosiermesh.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Contribution Guidelines</title><link>https://hoosiermesh.org/docs/contribution-guidelines/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/docs/contribution-guidelines/</guid><description>&lt;p&gt;We use &lt;a href="https://gohugo.io/"&gt;Hugo&lt;/a&gt; to format and generate our website, the
-&lt;a href="https://github.com/google/docsy"&gt;Docsy&lt;/a&gt; theme for styling and site structure,
-and &lt;a href="https://www.netlify.com/"&gt;Netlify&lt;/a&gt; to manage the deployment of the site.
-Hugo is an open-source static site generator that provides us with templates,
-content organisation in a standard directory structure, and a website generation
-engine. You write the pages in Markdown (or HTML if you want), and Hugo wraps
-them up into a website.&lt;/p&gt;
-&lt;p&gt;All submissions, including submissions by project members, require review. We
-use GitHub pull requests for this purpose. Consult
-&lt;a href="https://help.github.com/articles/about-pull-requests/"&gt;GitHub Help&lt;/a&gt; for more
-information on using pull requests.&lt;/p&gt;</description></item><item><title>Amateur Radio &amp; Meshtastic</title><link>https://hoosiermesh.org/docs/ham-radio/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/docs/ham-radio/</guid><description>&lt;p&gt;Information for licensed amateur radio (ham) operators using Meshtastic devices. Understanding the legal and technical considerations is essential for compliant operation.&lt;/p&gt;
-&lt;h2 id="important-encryption--licensing"&gt;Important: Encryption &amp;amp; Licensing&lt;a class="td-heading-self-link" href="#important-encryption--licensing" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;div class="alert alert-danger" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;Critical for Ham Operators&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;US Amateur Radio licensing specifically prohibits encryption of transmitted information.&lt;/strong&gt; While Meshtastic supports encrypted communications, licensed amateur radio operators must disable encryption when operating under their amateur radio license.&lt;/p&gt;
-&lt;p&gt;See &lt;a href="https://www.fcc.gov/wireless/bureau-divisions/mobility-division/amateur-radio-service"&gt;FCC Part 97 Rules&lt;/a&gt; for complete regulations.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hoosier Mesh</title><link>https://hoosiermesh.org/</link><description>Recent content on Hoosier Mesh</description><generator>Hugo</generator><language>en</language><atom:link href="https://hoosiermesh.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Start Here</title><link>https://hoosiermesh.org/docs/getting-started/start-here/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/docs/getting-started/start-here/</guid><description>&lt;h2 id="before-you-begin"&gt;Before you begin&lt;a class="td-heading-self-link" href="#before-you-begin" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="alert alert-danger" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;Critical Safety Warning&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Never power on your device without attaching an antenna!&lt;/strong&gt; Powering on the
+radio without an antenna attached could damage the radio chip.&lt;/p&gt;
 &lt;/div&gt;
-&lt;h2 id="educational-presentation"&gt;Educational Presentation&lt;a class="td-heading-self-link" href="#educational-presentation" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;For a comprehensive overview of Meshtastic for amateur radio operators, including legal considerations, technical details, and best practices:&lt;/p&gt;</description></item><item><title>Get a node</title><link>https://hoosiermesh.org/docs/getting-started/get-a-node/</link><pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/docs/getting-started/get-a-node/</guid><description>&lt;p&gt;Ready to join the mesh? This guide will help you find the right Meshtastic device for your needs. Whether you&amp;rsquo;re looking for a portable tracker, a fixed solar repeater, or something in between, there&amp;rsquo;s a device for you.&lt;/p&gt;
+&lt;h2 id="verify-your-data-cable"&gt;Verify your data cable&lt;a class="td-heading-self-link" href="#verify-your-data-cable" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Before connecting your device to your computer, make sure your USB cable
+supports both charging and data transfer. Some cables are charge-only and
+won&amp;rsquo;t work for flashing firmware.&lt;/p&gt;
+&lt;p&gt;To verify your cable:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Try connecting it to your phone or another device&lt;/li&gt;
+&lt;li&gt;Attempt to copy a file to or from the device&lt;/li&gt;
+&lt;li&gt;If file transfer works, your cable can also transfer data and is ready to use&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="identify-your-board"&gt;Identify your board&lt;a class="td-heading-self-link" href="#identify-your-board" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Before you begin, decide on your first device. Check out the
+&lt;a href="https://hoosiermesh.org/docs/getting-started/get-a-node/"&gt;Get a Node&lt;/a&gt; guide to help you choose the
+right hardware for your needs and budget.&lt;/p&gt;</description></item><item><title>Get a node</title><link>https://hoosiermesh.org/docs/getting-started/get-a-node/</link><pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/docs/getting-started/get-a-node/</guid><description>&lt;p&gt;Ready to join the mesh? This guide will help you find the right Meshtastic device for your needs. Whether you&amp;rsquo;re looking for a portable tracker, a fixed solar repeater, or something in between, there&amp;rsquo;s a device for you.&lt;/p&gt;
 &lt;h2 id="where-to-buy"&gt;Where to Buy&lt;a class="td-heading-self-link" href="#where-to-buy" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;h3 id="official-partner-brands"&gt;Official Partner Brands&lt;a class="td-heading-self-link" href="#official-partner-brands" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;These manufacturers produce officially supported Meshtastic hardware with excellent documentation and community support:&lt;/p&gt;
@@ -44,7 +45,104 @@ information on using pull requests.&lt;/p&gt;</description></item><item><title>A
 &lt;hr&gt;
 &lt;h2 id="popular-device-models"&gt;Popular Device Models&lt;a class="td-heading-self-link" href="#popular-device-models" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;Choosing a Chipset&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;ESP32&lt;/strong&gt;: Better for grid-powered setups with WiFi access. Lower cost, more features, but higher power consumption.&lt;/p&gt;</description></item><item><title>About Hoosier Mesh</title><link>https://hoosiermesh.org/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/about/</guid><description>&lt;link rel="preload" as="image" href="https://hoosiermesh.org/about/featured-background_hu_a7d3de7969478a25.webp" media="(max-width: 1200px)"&gt;
+&lt;p&gt;&lt;strong&gt;ESP32&lt;/strong&gt;: Better for grid-powered setups with WiFi access. Lower cost, more features, but higher power consumption.&lt;/p&gt;</description></item><item><title>Flash Firmware</title><link>https://hoosiermesh.org/docs/getting-started/flash-firmware/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/docs/getting-started/flash-firmware/</guid><description>&lt;h2 id="browser-requirements"&gt;Browser requirements&lt;a class="td-heading-self-link" href="#browser-requirements" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="alert alert-warning" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;Important&lt;/div&gt;
+&lt;p&gt;You must use &lt;strong&gt;Chrome&lt;/strong&gt; or &lt;strong&gt;Microsoft Edge&lt;/strong&gt; to access the Meshtastic
+installer. Other browsers are not supported.&lt;/p&gt;
+&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;Visit the &lt;a href="https://meshtastic.org"&gt;Meshtastic website&lt;/a&gt; and navigate to the
+&lt;strong&gt;Getting Started&lt;/strong&gt; section&lt;/li&gt;
+&lt;li&gt;Follow the instructions for your device type to download and install any
+required drivers&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="driver-notes"&gt;Driver notes&lt;a class="td-heading-self-link" href="#driver-notes" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="alert alert-info" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;nRF52 and RP2040 devices&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;These devices typically do not require serial drivers.&lt;/strong&gt; They use the UF2
+bootloader which makes the devices appear as flash drives. &lt;strong&gt;Do not download
+USB device drivers unless required to install UF2 support.&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Initial Setup</title><link>https://hoosiermesh.org/docs/getting-started/initial-setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/docs/getting-started/initial-setup/</guid><description>&lt;p&gt;Access the settings menu by pressing the settings &lt;strong&gt;cog&lt;/strong&gt; icon. The recommended
+configuration for nodes in the Indiana mesh network is documented in detail on
+the &lt;a href="https://hoosiermesh.org/docs/reference/node-configuration/"&gt;Node Configuration Reference&lt;/a&gt; page.&lt;/p&gt;
+&lt;p&gt;Key settings to review:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;LoRa settings&lt;/strong&gt;: Set region to US 915, preset to &amp;ldquo;Long Range - Fast&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Channels&lt;/strong&gt;: Configure the default &amp;ldquo;Long Fast&amp;rdquo; channel&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;User configuration&lt;/strong&gt;: Set your node name and long/short identifiers&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Device role&lt;/strong&gt;: Set to CLIENT (or CLIENT_BASE for roof nodes)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Position&lt;/strong&gt;: Enable position broadcasting at 6-hour intervals&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For the complete list of recommended settings for each category, see the
+&lt;a href="https://hoosiermesh.org/docs/reference/node-configuration/"&gt;Node Configuration Reference&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Use the App</title><link>https://hoosiermesh.org/docs/getting-started/use-the-app/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/docs/getting-started/use-the-app/</guid><description>&lt;p&gt;Most people use the official Meshtastic mobile app to pair, configure, and
+message from their node. Start with the official app and work through the
+basic setup and pairing steps.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://meshtastic.org/docs/introduction/"&gt;Meshtastic Official Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://play.google.com/store/apps/details?id=com.geeksville.mesh"&gt;Meshtastic Android Client&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://apps.apple.com/us/app/meshtastic/id1516916591"&gt;Meshtastic iOS App&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Go Further</title><link>https://hoosiermesh.org/docs/getting-started/go-further/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/docs/getting-started/go-further/</guid><description>&lt;h2 id="configuration-guides"&gt;Configuration guides&lt;a class="td-heading-self-link" href="#configuration-guides" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://meshtastic.org/docs/introduction/"&gt;Meshtastic Official Documentation&lt;/a&gt; - Comprehensive official docs&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://m.youtube.com/@CommsChannel"&gt;CommsChannel on YouTube&lt;/a&gt; - Video walkthroughs of radio setup and configuration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="upgrade-your-antenna"&gt;Upgrade your antenna&lt;a class="td-heading-self-link" href="#upgrade-your-antenna" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Once you&amp;rsquo;re up and running, consider upgrading your antenna for better range
+and performance. Check what other community members are using and discover
+options in the &lt;a href="https://github.com/meshtastic/antenna-reports"&gt;Meshtastic Antenna Reports&lt;/a&gt;
+repository.&lt;/p&gt;
+&lt;h2 id="helpful-tools"&gt;Helpful tools&lt;a class="td-heading-self-link" href="#helpful-tools" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id="official-tools"&gt;Official tools&lt;a class="td-heading-self-link" href="#official-tools" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://flasher.meshtastic.org"&gt;Meshtastic Flasher&lt;/a&gt; - Web-based firmware flasher&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/meshtastic"&gt;Meshtastic GitHub&lt;/a&gt; - Source code and development&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://site.meshtastic.org"&gt;Meshtastic Site Survey&lt;/a&gt; - Plan your mesh coverage&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://nightly.link/meshtastic/firmware/workflows/main_matrix/master"&gt;Nightly Builds&lt;/a&gt; - Advanced users only&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="maps-and-monitoring"&gt;Maps and monitoring&lt;a class="td-heading-self-link" href="#maps-and-monitoring" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://meshmap.net/"&gt;MeshMap&lt;/a&gt; - Meshtastic MQTT node map with root topic information&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://meshtastic.liamcottle.net/"&gt;Liamcottle&amp;rsquo;s Meshtastic Map&lt;/a&gt; - Alternative mesh visualization&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://meshsense.affirmatech.com/"&gt;MeshSense Map&lt;/a&gt; - Additional mesh visualization&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.scadacore.com/tools/rf-path/rf-line-of-sight/"&gt;RF Line of Sight Tool&lt;/a&gt; - Plan RF coverage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="mobile-apps"&gt;Mobile apps&lt;a class="td-heading-self-link" href="#mobile-apps" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;iOS/macOS&lt;/strong&gt;: &lt;a href="https://apps.apple.com/us/app/meshscope/id6749806329"&gt;MeshScope&lt;/a&gt;, &lt;a href="https://apps.apple.com/us/app/mesh-world/id6747457936"&gt;Mesh World&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Android&lt;/strong&gt;: &lt;a href="https://play.google.com/store/apps/details?id=com.geeksville.mesh"&gt;Meshtastic Android Client&lt;/a&gt;, &lt;a href="https://obtainium.imranr.dev/"&gt;Obtanium&lt;/a&gt; (advanced users)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OTA updates&lt;/strong&gt;: &lt;a href="https://apps.apple.com/us/app/nrf-device-firmware-update/id1624454660"&gt;nRF Connect for iOS&lt;/a&gt;, &lt;a href="https://github.com/NordicSemiconductor/Android-nRF-Connect/releases/tag/v4.24.3"&gt;nRF Connect for Android&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="other-tools"&gt;Other tools&lt;a class="td-heading-self-link" href="#other-tools" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://mqtt-explorer.com/"&gt;MQTT Explorer&lt;/a&gt; - Monitor MQTT traffic without a node&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://affirmatech.com/meshsense"&gt;MeshSense App&lt;/a&gt; - Advanced Meshtastic client&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://site.meshtastic.org"&gt;Site Survey Tool&lt;/a&gt; - Plan your mesh coverage and antenna placement&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For more tools and resources, see the &lt;a href="https://hoosiermesh.org/docs/resources/"&gt;Resources page&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Local Community</title><link>https://hoosiermesh.org/docs/getting-started/local-community/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/docs/getting-started/local-community/</guid><description>&lt;h2 id="find-nodes-near-you"&gt;Find nodes near you&lt;a class="td-heading-self-link" href="#find-nodes-near-you" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Use these mesh maps to discover nodes in your area:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://meshmap.net/"&gt;MeshMap.net&lt;/a&gt; - View the global mesh network with detailed node information&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://meshtastic.liamcottle.net/"&gt;Liamcottle&amp;rsquo;s Meshtastic Map&lt;/a&gt; - Alternative map visualization&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you have a Discord account, you can also ask about other mesh users and
+nodes in specific areas on the &lt;a href="https://discord.gg/AUNTxtUT6P"&gt;Meshtastic Community Discord&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="regional-community-networks"&gt;Regional community networks&lt;a class="td-heading-self-link" href="#regional-community-networks" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Join other Indiana meshers on these regional networks:&lt;/p&gt;</description></item><item><title>Contribution Guidelines</title><link>https://hoosiermesh.org/docs/contribution-guidelines/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/docs/contribution-guidelines/</guid><description>&lt;p&gt;We use &lt;a href="https://gohugo.io/"&gt;Hugo&lt;/a&gt; to format and generate our website, the
+&lt;a href="https://github.com/google/docsy"&gt;Docsy&lt;/a&gt; theme for styling and site structure,
+and &lt;a href="https://www.netlify.com/"&gt;Netlify&lt;/a&gt; to manage the deployment of the site.
+Hugo is an open-source static site generator that provides us with templates,
+content organisation in a standard directory structure, and a website generation
+engine. You write the pages in Markdown (or HTML if you want), and Hugo wraps
+them up into a website.&lt;/p&gt;
+&lt;p&gt;All submissions, including submissions by project members, require review. We
+use GitHub pull requests for this purpose. Consult
+&lt;a href="https://help.github.com/articles/about-pull-requests/"&gt;GitHub Help&lt;/a&gt; for more
+information on using pull requests.&lt;/p&gt;</description></item><item><title>Amateur Radio &amp; Meshtastic</title><link>https://hoosiermesh.org/docs/ham-radio/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/docs/ham-radio/</guid><description>&lt;p&gt;Information for licensed amateur radio (ham) operators using Meshtastic devices. Understanding the legal and technical considerations is essential for compliant operation.&lt;/p&gt;
+&lt;h2 id="important-encryption--licensing"&gt;Important: Encryption &amp;amp; Licensing&lt;a class="td-heading-self-link" href="#important-encryption--licensing" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="alert alert-danger" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;Critical for Ham Operators&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;US Amateur Radio licensing specifically prohibits encryption of transmitted information.&lt;/strong&gt; While Meshtastic supports encrypted communications, licensed amateur radio operators must disable encryption when operating under their amateur radio license.&lt;/p&gt;
+&lt;p&gt;See &lt;a href="https://www.fcc.gov/wireless/bureau-divisions/mobility-division/amateur-radio-service"&gt;FCC Part 97 Rules&lt;/a&gt; for complete regulations.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2 id="educational-presentation"&gt;Educational Presentation&lt;a class="td-heading-self-link" href="#educational-presentation" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;For a comprehensive overview of Meshtastic for amateur radio operators, including legal considerations, technical details, and best practices:&lt;/p&gt;</description></item><item><title>About Hoosier Mesh</title><link>https://hoosiermesh.org/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/about/</guid><description>&lt;link rel="preload" as="image" href="https://hoosiermesh.org/about/featured-background_hu_a7d3de7969478a25.webp" media="(max-width: 1200px)"&gt;
 &lt;link rel="preload" as="image" href="https://hoosiermesh.org/about/featured-background_hu_3fd6f422517e017b.webp" media="(min-width: 1200px)"&gt;
 &lt;style&gt;
 #td-cover-block-0 {

@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Configuration on Hoosier Mesh</title><link>https://hoosiermesh.org/tags/configuration/</link><description>Recent content in Configuration on Hoosier Mesh</description><generator>Hugo</generator><language>en</language><atom:link href="https://hoosiermesh.org/tags/configuration/index.xml" rel="self" type="application/rss+xml"/><item><title>Node Configuration Reference</title><link>https://hoosiermesh.org/docs/reference/node-configuration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/docs/reference/node-configuration/</guid><description>&lt;p&gt;This page provides a comprehensive reference of all node configuration options recommended for the Indiana Hoosier Mesh network.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Configuration on Hoosier Mesh</title><link>https://hoosiermesh.org/tags/configuration/</link><description>Recent content in Configuration on Hoosier Mesh</description><generator>Hugo</generator><language>en</language><atom:link href="https://hoosiermesh.org/tags/configuration/index.xml" rel="self" type="application/rss+xml"/><item><title>Initial Setup</title><link>https://hoosiermesh.org/docs/getting-started/initial-setup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/docs/getting-started/initial-setup/</guid><description>&lt;p&gt;Access the settings menu by pressing the settings &lt;strong&gt;cog&lt;/strong&gt; icon. The recommended
+configuration for nodes in the Indiana mesh network is documented in detail on
+the &lt;a href="https://hoosiermesh.org/docs/reference/node-configuration/"&gt;Node Configuration Reference&lt;/a&gt; page.&lt;/p&gt;
+&lt;p&gt;Key settings to review:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;LoRa settings&lt;/strong&gt;: Set region to US 915, preset to &amp;ldquo;Long Range - Fast&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Channels&lt;/strong&gt;: Configure the default &amp;ldquo;Long Fast&amp;rdquo; channel&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;User configuration&lt;/strong&gt;: Set your node name and long/short identifiers&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Device role&lt;/strong&gt;: Set to CLIENT (or CLIENT_BASE for roof nodes)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Position&lt;/strong&gt;: Enable position broadcasting at 6-hour intervals&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For the complete list of recommended settings for each category, see the
+&lt;a href="https://hoosiermesh.org/docs/reference/node-configuration/"&gt;Node Configuration Reference&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Node Configuration Reference</title><link>https://hoosiermesh.org/docs/reference/node-configuration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/docs/reference/node-configuration/</guid><description>&lt;p&gt;This page provides a comprehensive reference of all node configuration options recommended for the Indiana Hoosier Mesh network.&lt;/p&gt;
 &lt;h2 id="lora-settings"&gt;LoRa Settings&lt;a class="td-heading-self-link" href="#lora-settings" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;table&gt;
  &lt;thead&gt;
