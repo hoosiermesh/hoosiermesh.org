@@ -40,7 +40,7 @@ title: Hoosier Mesh
     width: 32vw;
     max-width: 380px;
     height: auto;
-    transform: translateY(-70px);
+    transform: translateY(-90px);
   }
 
   .td-home .td-cover-block .text-center {
