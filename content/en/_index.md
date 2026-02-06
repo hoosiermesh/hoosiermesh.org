@@ -10,7 +10,7 @@ title: Hoosier Mesh
 
 {{< blocks/cover title="Welcome to Hoosier Mesh" image_anchor="top" height="auto" >}}
 
-<a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/">
+<a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/getting-started/get-a-node/">
   Get a node <i class="fas fa-arrow-alt-circle-right ms-2"></i>
 </a>
 <a class="btn btn-lg btn-secondary me-3 mb-4" href="https://discord.gg/VrFcGTrw6V" target="_blank">
