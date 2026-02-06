@@ -33,14 +33,14 @@ title: Hoosier Mesh
     z-index: 1;
     padding-bottom: clamp(90px, 18vh, 150px);
     box-sizing: border-box;
-    transform: translateY(var(--hero-shift));
+    transform: translateY(calc(var(--hero-shift) - 30px));
   }
 
   .hero-logo-overlay img {
     width: 32vw;
     max-width: 380px;
     height: auto;
-    transform: translateY(-40px);
+    transform: translateY(-70px);
   }
 
   .td-home .td-cover-block .text-center {
@@ -53,7 +53,7 @@ title: Hoosier Mesh
   .td-home .td-cover-block .text-center .lead {
     margin-top: auto;
     padding-bottom: 0;
-    transform: translateY(24px);
+    transform: translateY(48px);
   }
 </style>
 
