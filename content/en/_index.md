@@ -37,10 +37,10 @@ title: Hoosier Mesh
   }
 
   .hero-logo-overlay img {
-    width: 26vw;
-    max-width: 300px;
+    width: 18.2vw;
+    max-width: 210px;
     height: auto;
-    transform: translateY(-280px);
+    transform: translateY(-230px);
   }
 
   .td-home .td-cover-block .text-center {
