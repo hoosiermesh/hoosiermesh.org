@@ -10,7 +10,7 @@ title: Hoosier Mesh
   .td-home .td-cover-block {
     height: 520px;
     min-height: 520px;
-    --hero-shift: 40px;
+    --hero-shift: 80px;
   }
 
   .td-home .td-cover-block .col-12,
@@ -52,7 +52,7 @@ title: Hoosier Mesh
 
   .td-home .td-cover-block .text-center .lead {
     margin-top: auto;
-    padding-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
   }
 </style>
 
