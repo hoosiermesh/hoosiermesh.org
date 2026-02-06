@@ -4,24 +4,6 @@ description: How to contribute to the docs
 weight: 10
 ---
 
-{{% pageinfo %}}
-
-These basic sample guidelines assume that your Docsy site is deployed using
-Netlify and your files are stored in GitHub. You can use the guidelines "as is"
-or adapt them with your own instructions: for example, other deployment options,
-information about your doc project's file structure, project-specific review
-guidelines, versioning guidelines, or any other information your users might
-find useful when updating your site.
-[Kubeflow](https://github.com/kubeflow/website/blob/master/README.md) has a
-great example.
-
-Don't forget to link to your own doc repo rather than our example site! Also
-make sure users can find these guidelines from your doc repo README: either add
-them there and link to them from this page, add them here and link to them from
-the README, or include them in both locations.
-
-{{% /pageinfo %}}
-
 We use [Hugo](https://gohugo.io/) to format and generate our website, the
 [Docsy](https://github.com/google/docsy) theme for styling and site structure,
 and [Netlify](https://www.netlify.com/) to manage the deployment of the site.
@@ -35,13 +17,34 @@ use GitHub pull requests for this purpose. Consult
 [GitHub Help](https://help.github.com/articles/about-pull-requests/) for more
 information on using pull requests.
 
+## Updating a single page
+
+If you've just spotted something you'd like to change while using the docs,
+Docsy has a shortcut for you:
+
+1. Click **Edit this page** in the top right hand corner of the page.
+1. If you don't already have an up to date fork of the project repo, you are
+   prompted to get one - click **Fork this repository and propose changes** or
+   **Update your Fork** to get an up to date version of the project to edit. The
+   appropriate page in your fork is displayed in edit mode.
+1. Follow the rest of the [Quick start with Netlify](#quick-start-with-netlify)
+   process to make, preview, and propose your changes.
+
+## Creating an issue
+
+If you've found a problem in the docs, but you're not sure how to fix it
+yourself, please create an issue in the
+[Hoosier Mesh repo](https://github.com/hoosiermesh/hoosiermesh.org). You can also
+create an issue about a specific page by clicking the **Create Issue** button in
+the top right hand corner of the page.
+
 ## Quick start with Netlify
 
 Here's a quick guide to updating the docs. It assumes you're familiar with the
 GitHub workflow and you're happy to use the automated preview of your doc
 updates:
 
-1. Fork the [Goldydocs repo](https://github.com/google/docsy-example) on GitHub.
+1. Fork the [Hoosier Mesh repo](https://github.com/hoosiermesh/hoosiermesh.org) on GitHub.
 1. Make your changes and send a pull request (PR).
 1. If you're not yet ready for a review, add "WIP" to the PR name to indicate
    it's a work in progress. (**Don't** add the Hugo property "draft = true" to
@@ -56,29 +59,16 @@ updates:
 1. When you're ready for a review, add a comment to the PR, and remove any "WIP"
    markers.
 
-## Updating a single page
-
-If you've just spotted something you'd like to change while using the docs,
-Docsy has a shortcut for you:
-
-1. Click **Edit this page** in the top right hand corner of the page.
-1. If you don't already have an up to date fork of the project repo, you are
-   prompted to get one - click **Fork this repository and propose changes** or
-   **Update your Fork** to get an up to date version of the project to edit. The
-   appropriate page in your fork is displayed in edit mode.
-1. Follow the rest of the [Quick start with Netlify](#quick-start-with-netlify)
-   process above to make, preview, and propose your changes.
-
 ## Previewing your changes locally
 
 If you want to run your own local Hugo server to preview your changes as you
 work:
 
-1. Follow the instructions in [Getting started](/docs/getting-started) to
+1. Follow the instructions in [Getting started](https://www.docsy.dev/docs/get-started/) to
    install Hugo and any other tools you need. You'll need at least **Hugo
    version 0.146.0** (we recommend using the most recent available version), and
    it must be the **extended** version, which supports SCSS.
-1. Fork the [Goldydocs repo](https://github.com/google/docsy-example) repo into
+1. Fork the [Hoosier Mesh repo](https://github.com/google/docsy-example) repo into
    your own project, then create a local copy using `git clone`.
 
    ```
@@ -96,7 +86,7 @@ work:
 
 If you've found a problem in the docs, but you're not sure how to fix it
 yourself, please create an issue in the
-[Goldydocs repo](https://github.com/google/docsy-example/issues). You can also
+[Hoosier Mesh repo](https://github.com/hoosiermesh/hoosiermesh.org). You can also
 create an issue about a specific page by clicking the **Create Issue** button in
 the top right hand corner of the page.
 
