@@ -1,7 +1,5 @@
 ---
 title: Map
-menu: { main: { weight: 30 } }
-type: docs
 ---
 
 Our state wide map, powered by [Mesh Monitor](https://github.com/Yeraze/meshmonitor) and built by the legendary community member Tranziq.

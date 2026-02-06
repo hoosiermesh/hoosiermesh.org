@@ -36,6 +36,12 @@ pygmentsStyle: tango
 permalinks:
   blog: /:section/:year/:month/:day/:slug/
 
+menu:
+  main:
+    - name: Map
+      url: https://meshmap.tranziq.net/
+      weight: 30
+
 # Image processing configuration.
 imaging:
   resampleFilter: CatmullRom
