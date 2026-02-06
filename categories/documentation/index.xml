@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Documentation on Hoosier Mesh</title><link>https://hoosiermesh.org/categories/documentation/</link><description>Recent content in Documentation on Hoosier Mesh</description><generator>Hugo</generator><language>en</language><atom:link href="https://hoosiermesh.org/categories/documentation/index.xml" rel="self" type="application/rss+xml"/><item><title>Contribution Guidelines</title><link>https://hoosiermesh.org/docs/contribution-guidelines/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/docs/contribution-guidelines/</guid><description>&lt;p&gt;We use &lt;a href="https://gohugo.io/"&gt;Hugo&lt;/a&gt; to format and generate our website, the
+&lt;a href="https://github.com/google/docsy"&gt;Docsy&lt;/a&gt; theme for styling and site structure,
+and &lt;a href="https://www.netlify.com/"&gt;Netlify&lt;/a&gt; to manage the deployment of the site.
+Hugo is an open-source static site generator that provides us with templates,
+content organisation in a standard directory structure, and a website generation
+engine. You write the pages in Markdown (or HTML if you want), and Hugo wraps
+them up into a website.&lt;/p&gt;
+&lt;p&gt;All submissions, including submissions by project members, require review. We
+use GitHub pull requests for this purpose. Consult
+&lt;a href="https://help.github.com/articles/about-pull-requests/"&gt;GitHub Help&lt;/a&gt; for more
+information on using pull requests.&lt;/p&gt;</description></item><item><title>Documentation</title><link>https://hoosiermesh.org/docs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/docs/</guid><description>&lt;section id="td-cover-block-0" class="row td-cover-block td-cover-block--height-auto js-td-cover td-overlay td-overlay--dark -bg-dark"&gt;
+ &lt;div class="col-12"&gt;
+ &lt;div class="container td-overlay__inner"&gt;
+ &lt;div class="text-center"&gt;
+ &lt;h1 class="display-1 mt-0 mt-md-5 pb-4"&gt;Hoosier Mesh Documentation&lt;/h1&gt;
+ 
+ &lt;div class="pt-3 lead"&gt;
+ 
+ Complete guides for setting up, configuring, and using Meshtastic devices on the Hoosier Mesh network.
+ 
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ 
+&lt;/section&gt;
+
+&lt;div&gt;&lt;a id="td-block-1" class="td-offset-anchor"&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;section class="row td-box td-box--1 position-relative td-box--height-auto"&gt;
+&lt;div class="col-12"&gt;
+&lt;div class="container text-center td-arrow-down"&gt;
+&lt;div class="h4 mb-0"&gt;
+&lt;p&gt;Whether you&amp;rsquo;re new to mesh networking or an experienced operator, you&amp;rsquo;ll find everything you need to get the most out of your Meshtastic device in the Indiana community.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;h2 id="for-new-users"&gt;For New Users&lt;a class="td-heading-self-link" href="#for-new-users" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Just getting started?&lt;/strong&gt; Start here:&lt;/p&gt;</description></item></channel></rss>

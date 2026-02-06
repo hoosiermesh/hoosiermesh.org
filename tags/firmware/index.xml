@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Firmware on Hoosier Mesh</title><link>https://hoosiermesh.org/tags/firmware/</link><description>Recent content in Firmware on Hoosier Mesh</description><generator>Hugo</generator><language>en</language><atom:link href="https://hoosiermesh.org/tags/firmware/index.xml" rel="self" type="application/rss+xml"/><item><title>Getting Started</title><link>https://hoosiermesh.org/docs/getting-started/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/docs/getting-started/</guid><description>&lt;h2 id="before-you-begin"&gt;Before You Begin&lt;a class="td-heading-self-link" href="#before-you-begin" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;div class="alert alert-danger" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;Critical Safety Warning&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Never power on your device without attaching an antenna!&lt;/strong&gt; Powering on the radio without an antenna attached could damage the radio chip.&lt;/p&gt;
+&lt;/div&gt;
+&lt;h3 id="verify-your-data-cable"&gt;Verify Your Data Cable&lt;a class="td-heading-self-link" href="#verify-your-data-cable" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Before connecting your device to your computer, make sure your USB cable supports both charging AND data transfer. Some cables are charge-only and won&amp;rsquo;t work for flashing firmware.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;To verify your cable:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Try connecting it to your phone or another device&lt;/li&gt;
+&lt;li&gt;Attempt to copy a file to or from the device&lt;/li&gt;
+&lt;li&gt;If file transfer works, your cable can also transfer data and is ready to use&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="step-1-identify-your-board"&gt;Step 1: Identify Your Board&lt;a class="td-heading-self-link" href="#step-1-identify-your-board" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Before you begin, you&amp;rsquo;ll need to decide on your first device. Check out our &lt;a href="https://hoosiermesh.org/docs/getting-started/get-a-node/"&gt;Get a Node&lt;/a&gt; guide to help you choose the right hardware for your needs and budget.&lt;/p&gt;</description></item></channel></rss>

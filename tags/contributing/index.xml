@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Contributing on Hoosier Mesh</title><link>https://hoosiermesh.org/tags/contributing/</link><description>Recent content in Contributing on Hoosier Mesh</description><generator>Hugo</generator><language>en</language><atom:link href="https://hoosiermesh.org/tags/contributing/index.xml" rel="self" type="application/rss+xml"/><item><title>Contribution Guidelines</title><link>https://hoosiermesh.org/docs/contribution-guidelines/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/docs/contribution-guidelines/</guid><description>&lt;p&gt;We use &lt;a href="https://gohugo.io/"&gt;Hugo&lt;/a&gt; to format and generate our website, the
+&lt;a href="https://github.com/google/docsy"&gt;Docsy&lt;/a&gt; theme for styling and site structure,
+and &lt;a href="https://www.netlify.com/"&gt;Netlify&lt;/a&gt; to manage the deployment of the site.
+Hugo is an open-source static site generator that provides us with templates,
+content organisation in a standard directory structure, and a website generation
+engine. You write the pages in Markdown (or HTML if you want), and Hugo wraps
+them up into a website.&lt;/p&gt;
+&lt;p&gt;All submissions, including submissions by project members, require review. We
+use GitHub pull requests for this purpose. Consult
+&lt;a href="https://help.github.com/articles/about-pull-requests/"&gt;GitHub Help&lt;/a&gt; for more
+information on using pull requests.&lt;/p&gt;</description></item></channel></rss>
