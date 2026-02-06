@@ -137,6 +137,9 @@ If you have a Discord account, you can also ask about other mesh users and nodes
 ### Other Tools
 - [MQTT Explorer](https://mqtt-explorer.com/) - Monitor MQTT traffic without a node
 - [MeshSense App](https://affirmatech.com/meshsense) - Advanced Meshtastic client
+- [Site Survey Tool](https://site.meshtastic.org) - Plan your mesh coverage and antenna placement
+
+For more tools and resources, see the [Resources page]({{< ref "/docs/resources" >}}).
 
 ## Regional Community Networks
 

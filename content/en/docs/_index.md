@@ -29,6 +29,8 @@ Whether you're new to mesh networking or an experienced operator, you'll find ev
 
 - [**Node Configuration Reference**]({{< ref "reference/node-configuration" >}}) - Complete list of all configuration options with recommended Indiana mesh settings
 - [**Advanced Configuration**]({{< ref "reference/mqtt-advanced" >}}) - MQTT setup, Serial configuration, Telemetry, and External Notifications
+- [**Resources**]({{< ref "resources" >}}) - Tools, maps, apps, and useful links for Meshtastic
+- [**Amateur Radio & Meshtastic**]({{< ref "ham-radio" >}}) - Information for licensed ham operators
 
 ## Contribution Guidelines
 
