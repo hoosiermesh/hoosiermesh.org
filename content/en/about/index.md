@@ -24,4 +24,4 @@ We're a grassroots community dedicated to building and expanding [Meshtastic](ht
 
 # Want to meet other Meshers? Join our [community]({{< ref "/community" >}})
 
-{{% /blocks/section type="row text-center" color=primary %}}
+{{% /blocks/section type="row text-center" color="primary" %}}
