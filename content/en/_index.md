@@ -10,7 +10,6 @@ title: Hoosier Mesh
   .td-home .td-cover-block {
     height: 520px;
     min-height: 520px;
-    --hero-shift: 80px;
   }
 
   .td-home .td-cover-block .col-12,
@@ -23,45 +22,12 @@ title: Hoosier Mesh
     z-index: 2;
   }
 
-  .hero-logo-overlay {
-    position: absolute;
-    inset: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    pointer-events: none;
-    z-index: 1;
-    padding-bottom: clamp(90px, 18vh, 150px);
-    box-sizing: border-box;
-    transform: translateY(calc(var(--hero-shift) - 30px));
-  }
-
-  .hero-logo-overlay img {
-    width: 18.2vw;
-    max-width: 210px;
-    height: auto;
-    transform: translateY(-230px);
-  }
-
-  .td-home .td-cover-block .text-center {
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
-    padding-top: var(--hero-shift);
-  }
-
-  .td-home .td-cover-block .text-center .lead {
-    margin-top: auto;
-    padding-bottom: 0;
-    transform: translateY(72px);
-  }
 </style>
 
 {{< blocks/cover image_anchor="top" height="max" >}}
 
-<div class="hero-logo-overlay">
-  <img src="/images/hoosiermesh-logo.svg" alt="Hoosier Mesh logo" loading="eager" decoding="async">
-</div>
+<h1 class="display-1">Hoosier Mesh</h1>
+<p class="lead">A node in every home</p>
 
 <a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/getting-started/get-a-node/">
   Get a node <i class="fas fa-arrow-alt-circle-right ms-2"></i>
