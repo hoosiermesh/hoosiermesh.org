@@ -19,6 +19,27 @@ use GitHub pull requests for this purpose. Consult
 [GitHub Help](https://help.github.com/articles/about-pull-requests/) for more
 information on using pull requests.
 
+We welcome and encourage contributions from the Meshtastic community! Whether
+you're fixing a typo, adding documentation, or sharing your mesh networking
+experiences, your input helps make this resource better for everyone.
+
+## Easy ways to contribute
+
+### Edit directly on the website
+
+The easiest way to contribute is using the **Edit this page** button found in
+the sidebar of every page on [hoosiermesh.org](https://hoosiermesh.org). This
+button takes you directly to GitHub where you can propose changes through a
+simple pull request. No local development setup required.
+
+### What you can contribute
+
+- Fix typos, improve clarity, or update outdated information.
+- Add tutorials, guides, or configuration examples.
+- Share information about local mesh networks or coverage areas.
+- Contribute photos of node deployments or community events.
+- Suggest new content or report issues.
+
 ## Updating a single page
 
 If you've just spotted something you'd like to change while using the docs,
