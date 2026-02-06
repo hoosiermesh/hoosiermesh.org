@@ -6,9 +6,28 @@ title: Hoosier Mesh
   .td-heading-self-link {
     display: none;
   }
+
+  .hero-logo-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 1.5rem;
+  }
+
+  .hero-logo {
+    width: auto;
+    max-width: min(80vw, 520px);
+    max-height: 35vh;
+    height: auto;
+    object-fit: contain;
+  }
 </style>
 
 {{< blocks/cover title="Welcome to Hoosier Mesh" image_anchor="top" height="auto" >}}
+
+<div class="hero-logo-wrap">
+  <img class="hero-logo" src="featured-background.webp" alt="Hoosier Mesh logo" loading="eager" decoding="async">
+</div>
 
 <a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/getting-started/get-a-node/">
   Get a node <i class="fas fa-arrow-alt-circle-right ms-2"></i>
