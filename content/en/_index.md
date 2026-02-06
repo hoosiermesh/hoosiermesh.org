@@ -13,7 +13,7 @@ description: Community-powered connectivity for Indiana. Get connected today!
 {{< blocks/cover title="Hoosier Mesh" image_anchor="top" height="max" >}}
 
 <div class="pt-3 lead">
-  <p class="display-6">Community-powered connectivity</p>
+  <p class="display-6">Community-powered connectivity for Indiana</p>
   <p class="p-initial my-5">
     <a class="btn btn-lg btn-primary me-3" href="/docs/getting-started/get-a-node/">
       Get a node <i class="fas fa-arrow-alt-circle-right ms-2"></i>
@@ -29,8 +29,6 @@ description: Community-powered connectivity for Indiana. Get connected today!
 {{% blocks/lead color="primary" %}}
 
 Hoosier Mesh is a community-driven initiative focused on promoting the use of [Meshtastic](https://meshtastic.org), an open-source mesh communication technology. The goal is  create a resilient, decentralized communication infrastructure throughout the state of Indiana.
-
-<img src="/images/hoosiermesh-logo.webp" alt="Hoosier Mesh logo" style="max-width: 360px; width: 80%; height: auto; margin: 1.5rem auto 0; display: block;">
 
 {{% /blocks/lead %}}
 
