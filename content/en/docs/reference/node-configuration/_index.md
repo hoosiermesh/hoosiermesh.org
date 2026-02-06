@@ -1,6 +1,8 @@
 ---
 title: Node Configuration Reference
 description: Complete reference for Meshtastic node configuration options
+categories: [Reference]
+tags: [configuration, lora, channels, settings]
 weight: 10
 ---
 

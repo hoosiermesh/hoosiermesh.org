@@ -1,6 +1,8 @@
 ---
 title: Reference
 description: Configuration references and advanced guides for Meshtastic
+categories: [Reference]
+tags: [reference, configuration]
 weight: 30
 ---
 

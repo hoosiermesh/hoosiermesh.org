@@ -1,6 +1,8 @@
 ---
 title: Contribution Guidelines
 description: How to contribute to the docs
+categories: [Documentation]
+tags: [contributing, community]
 weight: 10
 ---
 

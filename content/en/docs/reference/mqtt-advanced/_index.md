@@ -1,6 +1,8 @@
 ---
 title: Advanced Configuration - MQTT & Telemetry
 description: MQTT, Serial, and Telemetry configuration for Meshtastic nodes
+categories: [Reference]
+tags: [mqtt, telemetry, advanced, serial]
 weight: 20
 ---
 

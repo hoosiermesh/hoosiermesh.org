@@ -2,26 +2,41 @@
 title: Documentation
 linkTitle: Docs
 menu: { main: { weight: 20 } }
+categories: [Documentation]
+tags: [overview]
 ---
 
-{{% pageinfo %}} This is a placeholder page that shows you how to use this
-template site. {{% /pageinfo %}}
+{{% blocks/cover title="Hoosier Mesh Documentation" image_anchor="top" height="auto" %}}
+Complete guides for setting up, configuring, and using Meshtastic devices on the Hoosier Mesh network.
+{{% /blocks/cover %}}
 
-This section is where the user documentation for your project lives - all the
-information your users need to understand and successfully use your project.
+{{% blocks/lead %}}
 
-For large documentation sets we recommend adding content under the headings in
-this section, though if some or all of them don’t apply to your project feel
-free to remove them or add your own. You can see an example of a smaller Docsy
-documentation site in the [Docsy User Guide](https://docsy.dev/docs/), which
-lives in the
-[Docsy theme repo](https://github.com/google/docsy/tree/master/userguide) if
-you'd like to copy its docs section.
+Whether you're new to mesh networking or an experienced operator, you'll find everything you need to get the most out of your Meshtastic device in the Indiana community.
 
-Other content such as marketing material, case studies, and community updates
-should live in the [About](/about/) and [Community](/community/) pages.
+{{% /blocks/lead %}}
 
-Find out how to use the Docsy theme in the
-[Docsy User Guide](https://docsy.dev/docs/). You can learn more about how to
-organize your documentation (and how we organized this site) in
-[Organizing Your Content](https://docsy.dev/docs/best-practices/organizing-content/).
+## For New Users
+
+**Just getting started?** Start here:
+
+- [**Get a Node**]({{< ref "getting-started/get-a-node" >}}) - Learn about different Meshtastic devices and choose the right one for your needs
+- [**Getting Started**]({{< ref "getting-started" >}}) - Step-by-step guide to unboxing, flashing firmware, and initial configuration
+
+## For Experienced Users
+
+**Need detailed configuration information?** Check out these references:
+
+- [**Node Configuration Reference**]({{< ref "reference/node-configuration" >}}) - Complete list of all configuration options with recommended Indiana mesh settings
+- [**Advanced Configuration**]({{< ref "reference/mqtt-advanced" >}}) - MQTT setup, Serial configuration, Telemetry, and External Notifications
+
+## Contribution Guidelines
+
+Want to help improve the Hoosier Mesh network or this documentation?
+
+- [**Contributing**]({{< ref "contribution-guidelines" >}}) - Learn how to contribute to the Hoosier Mesh community and documentation
+
+## Quick Links
+
+- [Meshtastic Official Documentation](https://meshtastic.org/docs/) - Official Meshtastic docs
+- [Indiana Mesh Discord](https://discord.gg/VrFcGTrw6V) - Chat with other Hoosier meshers and get support

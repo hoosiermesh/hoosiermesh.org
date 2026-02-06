@@ -1,6 +1,8 @@
 ---
 title: Getting Started
 description: Getting started with Meshtastic
+categories: [Getting Started]
+tags: [beginner, setup, hardware, firmware]
 weight: 2
 ---
 

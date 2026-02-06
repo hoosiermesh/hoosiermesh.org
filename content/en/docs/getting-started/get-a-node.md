@@ -3,8 +3,8 @@ title: Get a node
 date: 2026-02-02
 description: >
   A list of potential nodes to get you started on your Meshtastic journey.
-categories: [Nodes]
-tags: [nodes,meshtastic,buying-guides]
+categories: [Getting Started]
+tags: [beginner, hardware, buying-guide]
 ---
 
 # Meshtastic Parts Source List
