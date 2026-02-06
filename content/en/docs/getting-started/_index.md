@@ -139,7 +139,7 @@ If you have a Discord account, you can also ask about other mesh users and nodes
 - [MeshSense App](https://affirmatech.com/meshsense) - Advanced Meshtastic client
 - [Site Survey Tool](https://site.meshtastic.org) - Plan your mesh coverage and antenna placement
 
-For more tools and resources, see the [Resources page]({{< relref "../resources/_index.md" >}}).
+For more tools and resources, see the [Resources page](/docs/resources/).
 
 ## Regional Community Networks
 

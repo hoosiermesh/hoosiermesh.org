@@ -29,7 +29,7 @@ Whether you're new to mesh networking or an experienced operator, you'll find ev
 
 - [**Node Configuration Reference**]({{< relref "reference/node-configuration/_index.md" >}}) - Complete list of all configuration options with recommended Indiana mesh settings
 - [**Advanced Configuration**]({{< relref "reference/mqtt-advanced/_index.md" >}}) - MQTT setup, Serial configuration, Telemetry, and External Notifications
-- [**Resources**]({{< relref "resources/_index.md" >}}) - Tools, maps, apps, and useful links for Meshtastic
+- [**Resources**](/docs/resources/) - Tools, maps, apps, and useful links for Meshtastic
 - [**Amateur Radio & Meshtastic**]({{< relref "ham-radio.md" >}}) - Information for licensed ham operators
 
 ## Contribution Guidelines
