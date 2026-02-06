@@ -34,15 +34,15 @@ information on using pull requests.&lt;/p&gt;</description></item><item><title>G
 &lt;hr&gt;
 &lt;h2 id="popular-nodes"&gt;Popular Nodes&lt;a class="td-heading-self-link" href="#popular-nodes" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;div class="alert alert-primary" role="alert"&gt;
-&lt;p&gt;This is not a list of every node, just a good sampling of the various brands.&lt;/div&gt;&lt;/p&gt;</description></item><item><title>About Goldydocs</title><link>https://hoosiermesh.org/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/about/</guid><description>&lt;link rel="preload" as="image" href="https://hoosiermesh.org/about/featured-background_hu_aff58776dc11044d.jpg" media="(max-width: 1200px)"&gt;
-&lt;link rel="preload" as="image" href="https://hoosiermesh.org/about/featured-background_hu_4a7a57f2a70e3928.jpg" media="(min-width: 1200px)"&gt;
+&lt;p&gt;This is not a list of every node, just a good sampling of the various brands.&lt;/div&gt;&lt;/p&gt;</description></item><item><title>About Goldydocs</title><link>https://hoosiermesh.org/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/about/</guid><description>&lt;link rel="preload" as="image" href="https://hoosiermesh.org/about/featured-background_hu_65ae10efe7b447b.webp" media="(max-width: 1200px)"&gt;
+&lt;link rel="preload" as="image" href="https://hoosiermesh.org/about/featured-background_hu_84920aee4f91fc7d.webp" media="(min-width: 1200px)"&gt;
 &lt;style&gt;
 #td-cover-block-0 {
- background-image: url(/about/featured-background_hu_aff58776dc11044d.jpg);
+ background-image: url(/about/featured-background_hu_65ae10efe7b447b.webp);
 }
 @media only screen and (min-width: 1200px) {
  #td-cover-block-0 {
- background-image: url(/about/featured-background_hu_4a7a57f2a70e3928.jpg);
+ background-image: url(/about/featured-background_hu_84920aee4f91fc7d.webp);
  }
 }
 &lt;/style&gt;
