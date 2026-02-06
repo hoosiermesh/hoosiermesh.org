@@ -11,6 +11,22 @@ title: Hoosier Mesh
     height: 520px;
     min-height: 520px;
   }
+
+  .td-home .td-cover-block .col-12,
+  .td-home .td-cover-block .container {
+    height: 100%;
+  }
+
+  .td-home .td-cover-block .text-center {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .td-home .td-cover-block .text-center .lead {
+    margin-top: auto;
+    padding-bottom: 1.5rem;
+  }
 </style>
 
 {{< blocks/cover image_anchor="top" height="max" >}}
