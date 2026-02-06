@@ -14,3 +14,8 @@ https://www.docsy.dev/docs/content/lookandfeel/#project-style-files
 .navbar-dark {
 	background-color: $primary !important;
 }
+
+// Add drop shadow to cover title
+.td-cover-block h1 {
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
