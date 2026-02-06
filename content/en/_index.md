@@ -6,27 +6,9 @@ title: Hoosier Mesh
   .td-heading-self-link {
     display: none;
   }
-
-  .td-home .td-cover-block h1 {
-    display: none;
-  }
-
-  .td-home .td-cover-block {
-    min-height: 70vh;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #2c2d3c;
-  }
-
-  @media (max-width: 991.98px) {
-    .td-home .td-cover-block {
-      min-height: 60vh;
-    }
-  }
 </style>
 
-{{< blocks/cover title="" image_anchor="top" height="auto" >}}
+{{< blocks/cover image_anchor="top" height="auto" >}}
 
 <a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/getting-started/get-a-node/">
   Get a node <i class="fas fa-arrow-alt-circle-right ms-2"></i>
