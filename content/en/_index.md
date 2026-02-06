@@ -9,17 +9,16 @@ title: Hoosier Mesh
 
 </style>
 
-{{< blocks/cover image_anchor="top" height="max" >}}
+{{< blocks/cover title="Hoosier Mesh" subtitle="Community-powered connectivity" image_anchor="top" height="max" >}}
 
-<h1 class="display-1">Hoosier Mesh</h1>
-<p class="lead">Community-powered connectivity</p>
-
-<a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/getting-started/get-a-node/">
-  Get a node <i class="fas fa-arrow-alt-circle-right ms-2"></i>
-</a>
-<a class="btn btn-lg btn-secondary me-3 mb-4" href="https://discord.gg/VrFcGTrw6V" target="_blank">
-  Join Discord <i class="fab fa-discord ms-2 "></i>
-</a>
+<p class="lead mt-5">
+  <a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/getting-started/get-a-node/">
+    Get a node <i class="fas fa-arrow-alt-circle-right ms-2"></i>
+  </a>
+  <a class="btn btn-lg btn-secondary me-3 mb-4" href="https://discord.gg/VrFcGTrw6V" target="_blank">
+    Join Discord <i class="fab fa-discord ms-2 "></i>
+  </a>
+</p>
 
 {{< /blocks/cover >}}
 
