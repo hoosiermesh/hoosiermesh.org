@@ -29,16 +29,14 @@ there are areas where your users will need a more detailed understanding of a
 given term or feature in order to do anything useful with your project (or to
 not make mistakes when using it) put that information in this section. For
 example, you may want to add some conceptual pages if you have a large project
-with many components and a complex architecture.&lt;/p&gt;</description></item><item><title>Contribution Guidelines</title><link>https://hoosiermesh.org/docs/contribution-guidelines/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/docs/contribution-guidelines/</guid><description>&lt;div class="pageinfo pageinfo-primary"&gt;
-&lt;p&gt;These basic sample guidelines assume that your Docsy site is deployed using
-Netlify and your files are stored in GitHub. You can use the guidelines &amp;ldquo;as is&amp;rdquo;
-or adapt them with your own instructions: for example, other deployment options,
-information about your doc project&amp;rsquo;s file structure, project-specific review
-guidelines, versioning guidelines, or any other information your users might
-find useful when updating your site.
-&lt;a href="https://github.com/kubeflow/website/blob/master/README.md"&gt;Kubeflow&lt;/a&gt; has a
-great example.&lt;/p&gt;
-&lt;p&gt;Don&amp;rsquo;t forget to link to your own doc repo rather than our example site! Also
-make sure users can find these guidelines from your doc repo README: either add
-them there and link to them from this page, add them here and link to them from
-the README, or include them in both locations.&lt;/p&gt;</description></item></channel></rss>
+with many components and a complex architecture.&lt;/p&gt;</description></item><item><title>Contribution Guidelines</title><link>https://hoosiermesh.org/docs/contribution-guidelines/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/docs/contribution-guidelines/</guid><description>&lt;p&gt;We use &lt;a href="https://gohugo.io/"&gt;Hugo&lt;/a&gt; to format and generate our website, the
+&lt;a href="https://github.com/google/docsy"&gt;Docsy&lt;/a&gt; theme for styling and site structure,
+and &lt;a href="https://www.netlify.com/"&gt;Netlify&lt;/a&gt; to manage the deployment of the site.
+Hugo is an open-source static site generator that provides us with templates,
+content organisation in a standard directory structure, and a website generation
+engine. You write the pages in Markdown (or HTML if you want), and Hugo wraps
+them up into a website.&lt;/p&gt;
+&lt;p&gt;All submissions, including submissions by project members, require review. We
+use GitHub pull requests for this purpose. Consult
+&lt;a href="https://help.github.com/articles/about-pull-requests/"&gt;GitHub Help&lt;/a&gt; for more
+information on using pull requests.&lt;/p&gt;</description></item></channel></rss>
