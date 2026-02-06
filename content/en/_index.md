@@ -1,6 +1,7 @@
 ---
 title: Hoosier Mesh
 description: Community-powered connectivity for Indiana. Get connected today!
+images: ["/images/hm_pwd_720.webp"]
 ---
 
 <style>
