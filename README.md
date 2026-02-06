@@ -1,4 +1,4 @@
-![Hoosier Mesh Logo](/static/images/hm_pwd_720.png)
+![Hoosier Mesh Logo](/static/images/hm_pwd_720.webp)
 
 # Hoosier Mesh
 
