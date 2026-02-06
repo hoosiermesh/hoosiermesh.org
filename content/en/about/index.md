@@ -16,7 +16,7 @@ We're a grassroots community dedicated to building and expanding [Meshtastic](ht
 
 {{% blocks/section type="row text-center" %}}
 
-# Ready to get started? Check out the [docs]({{< ref "/docs/getting-started" >}})
+# Ready to get started? Check out the [docs]({{< relref "../docs/getting-started/_index.md" >}})
 
 {{% /blocks/section %}}
 

@@ -60,7 +60,7 @@ This page provides a comprehensive reference of all node configuration options r
 | Unmessageable | OFF (Optional ON for roof nodes) |
 | Licensed Amateur Radio | OFF* |
 
-**Important:** Meshtastic allows encrypted transmissions. However, US Amateur Radio licensing prohibits encryption. See [FCC guidelines](https://www.fcc.gov/) and our [Amateur Radio & Meshtastic guide]({{< ref "/docs/ham-radio" >}}) for complete details.
+**Important:** Meshtastic allows encrypted transmissions. However, US Amateur Radio licensing prohibits encryption. See [FCC guidelines](https://www.fcc.gov/) and our [Amateur Radio & Meshtastic guide]({{< relref "../../ham-radio.md" >}}) for complete details.
 
 ## Device Settings
 

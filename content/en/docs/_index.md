@@ -20,23 +20,23 @@ Whether you're new to mesh networking or an experienced operator, you'll find ev
 
 **Just getting started?** Start here:
 
-- [**Get a Node**]({{< ref "getting-started/get-a-node" >}}) - Learn about different Meshtastic devices and choose the right one for your needs
-- [**Getting Started**]({{< ref "getting-started" >}}) - Step-by-step guide to unboxing, flashing firmware, and initial configuration
+- [**Get a Node**]({{< relref "getting-started/get-a-node.md" >}}) - Learn about different Meshtastic devices and choose the right one for your needs
+- [**Getting Started**]({{< relref "getting-started/_index.md" >}}) - Step-by-step guide to unboxing, flashing firmware, and initial configuration
 
 ## For Experienced Users
 
 **Need detailed configuration information?** Check out these references:
 
-- [**Node Configuration Reference**]({{< ref "reference/node-configuration" >}}) - Complete list of all configuration options with recommended Indiana mesh settings
-- [**Advanced Configuration**]({{< ref "reference/mqtt-advanced" >}}) - MQTT setup, Serial configuration, Telemetry, and External Notifications
-- [**Resources**]({{< ref "resources" >}}) - Tools, maps, apps, and useful links for Meshtastic
-- [**Amateur Radio & Meshtastic**]({{< ref "ham-radio" >}}) - Information for licensed ham operators
+- [**Node Configuration Reference**]({{< relref "reference/node-configuration/_index.md" >}}) - Complete list of all configuration options with recommended Indiana mesh settings
+- [**Advanced Configuration**]({{< relref "reference/mqtt-advanced/_index.md" >}}) - MQTT setup, Serial configuration, Telemetry, and External Notifications
+- [**Resources**]({{< relref "resources/_index.md" >}}) - Tools, maps, apps, and useful links for Meshtastic
+- [**Amateur Radio & Meshtastic**]({{< relref "ham-radio.md" >}}) - Information for licensed ham operators
 
 ## Contribution Guidelines
 
 Want to help improve the Hoosier Mesh network or this documentation?
 
-- [**Contributing**]({{< ref "contribution-guidelines" >}}) - Learn how to contribute to the Hoosier Mesh community and documentation
+- [**Contributing**]({{< relref "contribution-guidelines.md" >}}) - Learn how to contribute to the Hoosier Mesh community and documentation
 
 ## Quick Links
 

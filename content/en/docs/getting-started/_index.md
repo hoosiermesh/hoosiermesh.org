@@ -23,7 +23,7 @@ Before connecting your device to your computer, make sure your USB cable support
 
 ## Step 1: Identify Your Board
 
-Before you begin, you'll need to decide on your first device. Check out our [Get a Node]({{< ref "get-a-node" >}}) guide to help you choose the right hardware for your needs and budget.
+Before you begin, you'll need to decide on your first device. Check out our [Get a Node]({{< relref "get-a-node.md" >}}) guide to help you choose the right hardware for your needs and budget.
 
 Once you have your device, identify its manufacturer and designation (e.g., ESP32, nRF52, RP2040). You'll need this information to select the correct drivers and firmware.
 
@@ -78,7 +78,7 @@ You must use **Chrome** or **Microsoft Edge** to access the Meshtastic installer
 
 ## Step 3: Initial Node Configuration
 
-Access the settings menu by pressing the settings **cog** icon. The recommended configuration for nodes in the Indiana mesh network is documented in detail on the [Node Configuration Reference]({{< ref "/docs/reference/node-configuration" >}}) page.
+Access the settings menu by pressing the settings **cog** icon. The recommended configuration for nodes in the Indiana mesh network is documented in detail on the [Node Configuration Reference]({{< relref "../reference/node-configuration/_index.md" >}}) page.
 
 Here are the key things to configure:
 - **LoRa Settings**: Set region to US 915, preset to "Long Range - Fast"
@@ -87,11 +87,11 @@ Here are the key things to configure:
 - **Device Role**: Set to CLIENT (or CLIENT_BASE for roof nodes)
 - **Position**: Enable position broadcasting at 6-hour intervals
 
-For the complete list of recommended settings for each category, see the [Node Configuration Reference]({{< ref "/docs/reference/node-configuration" >}}).
+For the complete list of recommended settings for each category, see the [Node Configuration Reference]({{< relref "../reference/node-configuration/_index.md" >}}).
 
 ### Advanced Configuration
 
-For information on advanced configuration options including MQTT, Serial, Telemetry, and External Notifications, see the [Advanced Configuration Guide]({{< ref "/docs/reference/mqtt-advanced" >}}).
+For information on advanced configuration options including MQTT, Serial, Telemetry, and External Notifications, see the [Advanced Configuration Guide]({{< relref "../reference/mqtt-advanced/_index.md" >}}).
 
 ## Learning & Support Resources
 
@@ -139,7 +139,7 @@ If you have a Discord account, you can also ask about other mesh users and nodes
 - [MeshSense App](https://affirmatech.com/meshsense) - Advanced Meshtastic client
 - [Site Survey Tool](https://site.meshtastic.org) - Plan your mesh coverage and antenna placement
 
-For more tools and resources, see the [Resources page]({{< ref "/docs/resources" >}}).
+For more tools and resources, see the [Resources page]({{< relref "../resources/_index.md" >}}).
 
 ## Regional Community Networks
 
