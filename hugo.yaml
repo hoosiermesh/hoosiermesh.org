@@ -178,20 +178,21 @@ params:
     #    url: https://example.org/x
     #    icon: fab fa-x-twitter
     #    desc: Follow us on X to get the latest news!
-    #  - name: Stack Overflow
-    #    url: https://example.org/stack
-    #    icon: fab fa-stack-overflow
-    #    desc: Practical questions and curated answers
+      - name: Hoosier Mesh Discord
+        url: https://discord.gg/VrFcGTrw6V
+        icon: fab fa-discord
+        desc: Chat with other Hoosier meshers
+      - name: Indiana Mesh Facebook
+        url: https://www.facebook.com/groups/314194264979559
+        icon: fab fa-facebook
+        desc: Connect with other Hoosier meshers on Facebook
+
     # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
-    developer:
+  developer:
       - name: GitHub
         url: https://github.com/hoosiermesh/hoosiermesh.org
         icon: fab fa-github
         desc: Website development takes place here!
-      - name: Discord
-        url: https://discord.gg/VrFcGTrw6V
-        icon: fab fa-discord
-        desc: Chat with other meshers
 
 module:
   # Uncomment the next line to build and serve using local docsy clone declared in the named Hugo workspace:
