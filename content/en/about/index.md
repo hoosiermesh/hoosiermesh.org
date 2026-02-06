@@ -10,7 +10,7 @@ menu: { main: { weight: 10 } }
 
 {{% blocks/lead %}}
 
-Hoosier Mesh is a community-driven initiative focused on promoting the use of open-source mesh communication technologies—specifically Meshtastic—to create a resilient, decentralized communication infrastructure throughout the state of Indiana.
+We're a grassroots community dedicated to building and expanding [Meshtastic](https://meshtastic.org/) communication networks across Indiana.
 
 {{% /blocks/lead %}}
 
@@ -24,4 +24,4 @@ Hoosier Mesh is a community-driven initiative focused on promoting the use of op
 
 # Want to meet other Meshers? Join our [community]({{< ref "/community" >}})
 
-{{% /blocks/section %}}
+{{% /blocks/section type="row text-center" color=primary %}}
