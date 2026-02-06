@@ -10,6 +10,7 @@ title: Hoosier Mesh
   .td-home .td-cover-block {
     height: 520px;
     min-height: 520px;
+    --hero-shift: 40px;
   }
 
   .td-home .td-cover-block .col-12,
@@ -32,6 +33,7 @@ title: Hoosier Mesh
     z-index: 1;
     padding-bottom: clamp(90px, 18vh, 150px);
     box-sizing: border-box;
+    transform: translateY(var(--hero-shift));
   }
 
   .hero-logo-overlay img {
@@ -45,6 +47,7 @@ title: Hoosier Mesh
     min-height: 100%;
     display: flex;
     flex-direction: column;
+    padding-top: var(--hero-shift);
   }
 
   .td-home .td-cover-block .text-center .lead {
