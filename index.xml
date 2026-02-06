@@ -34,7 +34,7 @@ information on using pull requests.&lt;/p&gt;</description></item><item><title>G
 &lt;hr&gt;
 &lt;h2 id="popular-nodes"&gt;Popular Nodes&lt;a class="td-heading-self-link" href="#popular-nodes" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;div class="alert alert-primary" role="alert"&gt;
-&lt;p&gt;This is not a list of every node, just a good sampling of the various brands.&lt;/div&gt;&lt;/p&gt;</description></item><item><title>About Goldydocs</title><link>https://hoosiermesh.org/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/about/</guid><description>&lt;link rel="preload" as="image" href="https://hoosiermesh.org/about/featured-background_hu_65ae10efe7b447b.webp" media="(max-width: 1200px)"&gt;
+&lt;p&gt;This is not a list of every node, just a good sampling of the various brands.&lt;/div&gt;&lt;/p&gt;</description></item><item><title>About Hoosier Mesh</title><link>https://hoosiermesh.org/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/about/</guid><description>&lt;link rel="preload" as="image" href="https://hoosiermesh.org/about/featured-background_hu_65ae10efe7b447b.webp" media="(max-width: 1200px)"&gt;
 &lt;link rel="preload" as="image" href="https://hoosiermesh.org/about/featured-background_hu_84920aee4f91fc7d.webp" media="(min-width: 1200px)"&gt;
 &lt;style&gt;
 #td-cover-block-0 {
@@ -50,7 +50,7 @@ information on using pull requests.&lt;/p&gt;</description></item><item><title>G
  &lt;div class="col-12"&gt;
  &lt;div class="container td-overlay__inner"&gt;
  &lt;div class="text-center"&gt;
- &lt;h1 class="display-1 mt-0 mt-md-5 pb-4"&gt;About Goldydocs&lt;/h1&gt;
+ &lt;h1 class="display-1 mt-0 mt-md-5 pb-4"&gt;About Hoosier Mesh&lt;/h1&gt;
  
  &lt;div class="pt-3 lead"&gt;
  
@@ -68,7 +68,4 @@ information on using pull requests.&lt;/p&gt;</description></item><item><title>G
 &lt;div class="col-12"&gt;
 &lt;div class="container text-center td-arrow-down"&gt;
 &lt;div class="h4 mb-0"&gt;
-&lt;p&gt;Goldydocs is a sample site using the &lt;a href="https://github.com/google/docsy"&gt;Docsy&lt;/a&gt;
-Hugo theme that shows what it can do and provides you with a template site
-structure. It’s designed for you to clone and edit as much as you like. See the
-different sections of the documentation and site for more ideas.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;Hoosier Mesh is a community-driven initiative focused on promoting the use of open-source mesh communication technologies—specifically Meshtastic—to create a resilient, decentralized communication infrastructure throughout the state of Indiana.&lt;/p&gt;</description></item></channel></rss>
