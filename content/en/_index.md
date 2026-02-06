@@ -8,7 +8,7 @@ title: Hoosier Mesh
   }
 </style>
 
-{{< blocks/cover image_anchor="top" height="auto" >}}
+{{< blocks/cover image_anchor="top" height="max" >}}
 
 <a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/getting-started/get-a-node/">
   Get a node <i class="fas fa-arrow-alt-circle-right ms-2"></i>
