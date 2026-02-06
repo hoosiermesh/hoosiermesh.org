@@ -10,5 +10,5 @@ These pages provide detailed reference information for Meshtastic node configura
 
 ## Configuration Reference Guides
 
-- [Node Configuration Reference]({{< relref "node-configuration/_index.md" >}}) - Complete list of all node configuration options with recommended settings for the Indiana mesh network
-- [Advanced Configuration - MQTT & Telemetry]({{< relref "mqtt-advanced/_index.md" >}}) - MQTT setup, Serial configuration, Telemetry, and External Notifications
+- [Node Configuration Reference](/docs/reference/node-configuration/) - Complete list of all node configuration options with recommended settings for the Indiana mesh network
+- [Advanced Configuration - MQTT & Telemetry](/docs/reference/mqtt-advanced/) - MQTT setup, Serial configuration, Telemetry, and External Notifications

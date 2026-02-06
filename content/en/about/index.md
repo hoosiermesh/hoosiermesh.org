@@ -16,12 +16,12 @@ We're a grassroots community dedicated to building and expanding [Meshtastic](ht
 
 {{% blocks/section type="row text-center" %}}
 
-# Ready to get started? Check out the [docs]({{< relref "../docs/getting-started/_index.md" >}})
+# Ready to get started? Check out the [docs](/docs/getting-started/)
 
 {{% /blocks/section %}}
 
 {{% blocks/section type="row text-center" color="primary" %}}
 
-# Want to meet other Meshers? Join our [community]({{< ref "/community" >}})
+# Want to meet other Meshers? Join our [community](/community/)
 
 {{% /blocks/section %}}

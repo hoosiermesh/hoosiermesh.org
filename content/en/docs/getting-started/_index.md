@@ -23,7 +23,7 @@ Before connecting your device to your computer, make sure your USB cable support
 
 ## Step 1: Identify Your Board
 
-Before you begin, you'll need to decide on your first device. Check out our [Get a Node]({{< relref "get-a-node.md" >}}) guide to help you choose the right hardware for your needs and budget.
+Before you begin, you'll need to decide on your first device. Check out our [Get a Node](/docs/getting-started/get-a-node/) guide to help you choose the right hardware for your needs and budget.
 
 Once you have your device, identify its manufacturer and designation (e.g., ESP32, nRF52, RP2040). You'll need this information to select the correct drivers and firmware.
 
@@ -78,7 +78,7 @@ You must use **Chrome** or **Microsoft Edge** to access the Meshtastic installer
 
 ## Step 3: Initial Node Configuration
 
-Access the settings menu by pressing the settings **cog** icon. The recommended configuration for nodes in the Indiana mesh network is documented in detail on the [Node Configuration Reference]({{< relref "../reference/node-configuration/_index.md" >}}) page.
+Access the settings menu by pressing the settings **cog** icon. The recommended configuration for nodes in the Indiana mesh network is documented in detail on the [Node Configuration Reference](/docs/reference/node-configuration/) page.
 
 Here are the key things to configure:
 - **LoRa Settings**: Set region to US 915, preset to "Long Range - Fast"
@@ -87,11 +87,11 @@ Here are the key things to configure:
 - **Device Role**: Set to CLIENT (or CLIENT_BASE for roof nodes)
 - **Position**: Enable position broadcasting at 6-hour intervals
 
-For the complete list of recommended settings for each category, see the [Node Configuration Reference]({{< relref "../reference/node-configuration/_index.md" >}}).
+For the complete list of recommended settings for each category, see the [Node Configuration Reference](/docs/reference/node-configuration/).
 
 ### Advanced Configuration
 
-For information on advanced configuration options including MQTT, Serial, Telemetry, and External Notifications, see the [Advanced Configuration Guide]({{< relref "../reference/mqtt-advanced/_index.md" >}}).
+For information on advanced configuration options including MQTT, Serial, Telemetry, and External Notifications, see the [Advanced Configuration Guide](/docs/reference/mqtt-advanced/).
 
 ## Learning & Support Resources
 
