@@ -52,7 +52,8 @@ title: Hoosier Mesh
 
   .td-home .td-cover-block .text-center .lead {
     margin-top: auto;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0;
+    transform: translateY(24px);
   }
 </style>
 
