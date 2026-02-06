@@ -56,7 +56,7 @@ title: Hoosier Mesh
 {{< blocks/cover image_anchor="top" height="max" >}}
 
 <div class="hero-logo-overlay">
-  <img src="/images/hoosermesh-logo.svg" alt="Hoosier Mesh logo" loading="eager" decoding="async">
+  <img src="/images/hoosiermesh-logo.svg" alt="Hoosier Mesh logo" loading="eager" decoding="async">
 </div>
 
 <a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/getting-started/get-a-node/">
