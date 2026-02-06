@@ -6,8 +6,6 @@ menu: { main: { weight: 10 } }
 
 {{% blocks/cover title="About Hoosier Mesh" image_anchor="bottom" height="auto" %}}
 
-A sample site using the Docsy Hugo theme.
-
 {{% /blocks/cover %}}
 
 {{% blocks/lead %}}
@@ -18,12 +16,12 @@ Hoosier Mesh is a community-driven initiative focused on promoting the use of op
 
 {{% blocks/section type="row text-center" %}}
 
-# [Meshtastic](https://meshtastic.org/) is an open-source, off-grid, long-range communication platform that uses inexpensive LoRa radios to create mesh networks. With Meshtastic, you can:
+# Ready to get started? Check out the [docs]({{< ref "/docs/getting-started" >}})
 
 {{% /blocks/section %}}
 
 {{% blocks/section %}}
 
-# This is another section with default alignment
+# Want to meet other Meshers? Join our [community]({{< ref "/community" >}})
 
 {{% /blocks/section %}}
