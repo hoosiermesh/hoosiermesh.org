@@ -1,5 +1,6 @@
 ---
 title: Hoosier Mesh
+description: Community-powered connectivity for Indiana. Get connected today!
 ---
 
 <style>
@@ -9,16 +10,19 @@ title: Hoosier Mesh
 
 </style>
 
-{{< blocks/cover title="Hoosier Mesh" subtitle="Community-powered connectivity" image_anchor="top" height="max" >}}
+{{< blocks/cover title="Hoosier Mesh" image_anchor="top" height="max" >}}
 
-<p class="lead mt-5">
-  <a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/getting-started/get-a-node/">
-    Get a node <i class="fas fa-arrow-alt-circle-right ms-2"></i>
-  </a>
-  <a class="btn btn-lg btn-secondary me-3 mb-4" href="https://discord.gg/VrFcGTrw6V" target="_blank">
-    Join Discord <i class="fab fa-discord ms-2 "></i>
-  </a>
-</p>
+<div class="pt-3 lead">
+  <p class="display-6">Community-powered connectivity</p>
+  <p class="p-initial my-5">
+    <a class="btn btn-lg btn-primary me-3" href="/docs/getting-started/get-a-node/">
+      Get a node <i class="fas fa-arrow-alt-circle-right ms-2"></i>
+    </a>
+    <a class="btn btn-lg btn-secondary" href="https://discord.gg/VrFcGTrw6V" target="_blank">
+      Join Discord <i class="fab fa-discord ms-2 "></i>
+    </a>
+  </p>
+</div>
 
 {{< /blocks/cover >}}
 
