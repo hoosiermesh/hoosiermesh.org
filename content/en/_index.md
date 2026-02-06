@@ -40,7 +40,7 @@ title: Hoosier Mesh
     width: 32vw;
     max-width: 380px;
     height: auto;
-    transform: translateY(-90px);
+    transform: translateY(-140px);
   }
 
   .td-home .td-cover-block .text-center {
@@ -53,7 +53,7 @@ title: Hoosier Mesh
   .td-home .td-cover-block .text-center .lead {
     margin-top: auto;
     padding-bottom: 0;
-    transform: translateY(48px);
+    transform: translateY(72px);
   }
 </style>
 
