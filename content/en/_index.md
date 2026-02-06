@@ -10,6 +10,20 @@ title: Hoosier Mesh
   .td-home .td-cover-block h1 {
     display: none;
   }
+
+  .td-home .td-cover-block {
+    min-height: 70vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #2c2d3c;
+  }
+
+  @media (max-width: 991.98px) {
+    .td-home .td-cover-block {
+      min-height: 60vh;
+    }
+  }
 </style>
 
 {{< blocks/cover title="" image_anchor="top" height="auto" >}}
