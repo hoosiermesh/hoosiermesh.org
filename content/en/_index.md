@@ -17,6 +17,27 @@ title: Hoosier Mesh
     height: 100%;
   }
 
+  .td-home .td-cover-block .container {
+    position: relative;
+    z-index: 2;
+  }
+
+  .hero-logo-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  .hero-logo-overlay img {
+    width: 35vw;
+    max-width: 420px;
+    height: auto;
+  }
+
   .td-home .td-cover-block .text-center {
     min-height: 100%;
     display: flex;
@@ -30,6 +51,10 @@ title: Hoosier Mesh
 </style>
 
 {{< blocks/cover image_anchor="top" height="max" >}}
+
+<div class="hero-logo-overlay">
+  <img src="/images/hoosermesh-logo.svg" alt="Hoosier Mesh logo" loading="eager" decoding="async">
+</div>
 
 <a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/getting-started/get-a-node/">
   Get a node <i class="fas fa-arrow-alt-circle-right ms-2"></i>
