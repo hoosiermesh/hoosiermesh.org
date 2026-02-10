@@ -1,5 +1,6 @@
 ---
 title: Documentation
+description: Complete guides for setting up, configuring, and using Meshtastic devices on the Hoosier Mesh network
 linkTitle: Docs
 menu: { main: { weight: 20 } }
 categories: [Documentation]

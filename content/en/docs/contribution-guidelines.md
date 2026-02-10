@@ -3,7 +3,7 @@ title: Contribution Guidelines
 description: How to contribute to the docs
 categories: [Documentation]
 tags: [contributing, community]
-weight: 10
+weight: 100
 ---
 
 We use [Hugo](https://gohugo.io/) to format and generate our website, the

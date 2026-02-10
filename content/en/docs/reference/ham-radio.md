@@ -16,9 +16,15 @@ Information for licensed amateur radio (ham) operators using Meshtastic devices.
 See [FCC Part 97 Rules](https://www.fcc.gov/wireless/bureau-divisions/mobility-division/amateur-radio-service) for complete regulations.
 {{% /alert %}}
 
-## Educational Presentation
+## Educational Presentations
 
-For a comprehensive overview of Meshtastic for amateur radio operators, including legal considerations, technical details, and best practices:
+### Meshtastic Overview for Amateur Radio
+
+🎥 [**Meshtastic Overview Presentation**](https://www.youtube.com/watch?v=c4vCbixlzw8) - Community presentation on Meshtastic fundamentals and usage ([slides](https://docs.google.com/presentation/d/1deby20UybyJFH5N7hyazTKJZdNG5Yil7eMtU_Y0D5KI/edit?usp=sharing))
+
+### FCC/Licensing Compliance
+
+For a comprehensive overview of Meshtastic specifically for amateur radio operators, including legal considerations, technical details, and best practices:
 
 📊 [**Meshtastic for Amateur Radio Operators - Google Slides Presentation**](https://docs.google.com/presentation/d/1T1R0I4YQFTkaUcaEB-Bv3_yFOH-dvbqb67uY3WRFMM0/edit)
 
