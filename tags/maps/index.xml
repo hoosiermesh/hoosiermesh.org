@@ -7,4 +7,20 @@
 &lt;p&gt;If you have a Discord account, you can also ask about other mesh users and
 nodes in specific areas on the &lt;a href="https://discord.gg/AUNTxtUT6P"&gt;Meshtastic Community Discord&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id="regional-community-networks"&gt;Regional community networks&lt;a class="td-heading-self-link" href="#regional-community-networks" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Join other Indiana meshers on these regional networks:&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;Join other Indiana meshers on these regional networks:&lt;/p&gt;</description></item><item><title>Resources</title><link>https://hoosiermesh.org/docs/resources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/docs/resources/</guid><description>&lt;p&gt;A curated collection of useful resources for Meshtastic users, from official tools to community-created maps and applications.&lt;/p&gt;
+&lt;h2 id="official-meshtastic-resources"&gt;Official Meshtastic Resources&lt;a class="td-heading-self-link" href="#official-meshtastic-resources" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h3 id="primary-tools"&gt;Primary Tools&lt;a class="td-heading-self-link" href="#primary-tools" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://meshtastic.org"&gt;&lt;strong&gt;Meshtastic.org&lt;/strong&gt;&lt;/a&gt; - Official Meshtastic website and documentation&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://flasher.meshtastic.org"&gt;&lt;strong&gt;Meshtastic Flasher&lt;/strong&gt;&lt;/a&gt; - Web-based firmware flasher for all devices&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://site.meshtastic.org"&gt;&lt;strong&gt;Site Survey Tool&lt;/strong&gt;&lt;/a&gt; - Plan your mesh coverage and repeater placement&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/meshtastic"&gt;&lt;strong&gt;Meshtastic GitHub&lt;/strong&gt;&lt;/a&gt; - Source code, firmware releases, and development&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="documentation--support"&gt;Documentation &amp;amp; Support&lt;a class="td-heading-self-link" href="#documentation--support" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://meshtastic.org/docs/"&gt;&lt;strong&gt;Official Documentation&lt;/strong&gt;&lt;/a&gt; - Complete technical documentation&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://discord.gg/ktMAKGBnBs"&gt;&lt;strong&gt;Community Discord&lt;/strong&gt;&lt;/a&gt; - Global Meshtastic community chat&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://nightly.link/meshtastic/firmware/workflows/main_matrix/master"&gt;&lt;strong&gt;Nightly Firmware Builds&lt;/strong&gt;&lt;/a&gt; - Bleeding edge builds (advanced users only)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="network-maps--visualization"&gt;Network Maps &amp;amp; Visualization&lt;a class="td-heading-self-link" href="#network-maps--visualization" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Discover nodes and visualize the mesh network:&lt;/p&gt;</description></item></channel></rss>
