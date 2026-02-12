@@ -67,6 +67,10 @@ https://www.docsy.dev/docs/content/lookandfeel/#project-style-files
 	outline-offset: 4px;
 }
 
+.node-counter--static {
+	cursor: default;
+}
+
 .node-counter__label {
 	font-size: 0.85rem;
 	letter-spacing: 0.2em;

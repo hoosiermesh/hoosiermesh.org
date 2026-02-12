@@ -36,6 +36,12 @@ Hoosier Mesh is a community-driven initiative focused on promoting the use of [M
 <div class="home-stats">
 {{< discord-counter >}}
 {{< node-counter >}}
+<div class="node-counter node-counter--static" aria-label="Counties 31">
+<div class="node-counter__label">Counties</div>
+<div class="node-counter__value">
+<span>31</span>
+</div>
+</div>
 </div>
 
 {{% /blocks/lead %}}
