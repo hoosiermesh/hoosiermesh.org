@@ -7,6 +7,7 @@
   const url = counter.getAttribute('data-node-counter-url');
   const valueEl = counter.querySelector('[data-node-count]');
   const statusEl = counter.querySelector('[data-node-status]');
+  const targetValue = Number.parseInt(counter.getAttribute('data-node-target') || '', 10);
   const startValue = Number.parseInt(counter.getAttribute('data-node-start') || '0', 10);
   const durationMs = Number.parseInt(counter.getAttribute('data-node-duration') || '1200', 10);
   const formatter = new Intl.NumberFormat();
@@ -43,6 +44,15 @@
   };
 
   setValue(startValue);
+
+  if (Number.isFinite(targetValue)) {
+    animateValue(startValue, targetValue, durationMs);
+    return;
+  }
+
+  if (!url) {
+    return;
+  }
 
   fetch(url, { cache: 'no-store' })
     .then((response) => {
