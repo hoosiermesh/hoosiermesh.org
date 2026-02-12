@@ -45,6 +45,14 @@ https://www.docsy.dev/docs/content/lookandfeel/#project-style-files
 	backdrop-filter: blur(6px);
 }
 
+.home-stats {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 1rem;
+	margin-top: 1.5rem;
+}
+
 .node-counter--link {
 	text-decoration: none;
 }

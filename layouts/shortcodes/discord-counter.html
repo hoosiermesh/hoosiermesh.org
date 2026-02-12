@@ -1,0 +1,11 @@
+{{- $data := index site.Data "discord" -}}
+{{- $count := 0 -}}
+{{- with $data -}}
+{{- $count = .memberCount | default 0 -}}
+{{- end -}}
+<a class="node-counter node-counter--link" href="https://discord.gg/VrFcGTrw6V" target="_blank" rel="noopener" data-node-target="{{ $count }}">
+<div class="node-counter__label">Community members</div>
+<div class="node-counter__value">
+<span>{{ $count }}</span>
+</div>
+</a>

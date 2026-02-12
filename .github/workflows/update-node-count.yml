@@ -19,6 +19,7 @@ jobs:
         run: |
           python - <<'PY'
           import json
+          import time
           import urllib.request
 
           url = 'https://meshmap.tranziq.net/api/status'
@@ -39,6 +40,26 @@ jobs:
           with open('data/node-count.json', 'w', encoding='utf-8') as handle:
             json.dump(output, handle, indent=2)
             handle.write('\n')
+
+          invite_url = 'https://discord.com/api/v10/invites/VrFcGTrw6V?with_counts=true'
+          with urllib.request.urlopen(invite_url) as response:
+            invite_data = json.load(response)
+
+          member_count = invite_data.get('approximate_member_count')
+          presence_count = invite_data.get('approximate_presence_count')
+
+          if not isinstance(member_count, int):
+            raise SystemExit('Missing discord member count in invite payload')
+
+          discord_output = {
+            'memberCount': member_count,
+            'presenceCount': presence_count,
+            'timestamp': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
+          }
+
+          with open('data/discord.json', 'w', encoding='utf-8') as handle:
+            json.dump(discord_output, handle, indent=2)
+            handle.write('\n')
           PY
 
       - name: Commit changes
@@ -50,6 +71,6 @@ jobs:
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/node-count.json
+          git add data/node-count.json data/discord.json
           git commit -m "Update node count"
           git push
