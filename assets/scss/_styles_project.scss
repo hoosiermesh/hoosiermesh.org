@@ -45,6 +45,20 @@ https://www.docsy.dev/docs/content/lookandfeel/#project-style-files
 	backdrop-filter: blur(6px);
 }
 
+.node-counter--link {
+	text-decoration: none;
+}
+
+.node-counter--link:hover {
+	transform: translateY(-1px);
+	box-shadow: 0 22px 55px rgba(0, 0, 0, 0.4);
+}
+
+.node-counter--link:focus-visible {
+	outline: 2px solid rgba($secondary, 0.9);
+	outline-offset: 4px;
+}
+
 .node-counter__label {
 	font-size: 0.85rem;
 	letter-spacing: 0.2em;
@@ -68,15 +82,6 @@ https://www.docsy.dev/docs/content/lookandfeel/#project-style-files
 	text-shadow: 0 0 12px rgba($secondary, 0.7);
 }
 
-.node-counter__meta {
-	font-size: 0.82rem;
-	opacity: 0.75;
-}
-
-.node-counter__meta a {
-	color: inherit;
-	text-decoration: underline;
-}
 
 .node-counter--error .node-counter__value {
 	opacity: 0.6;
