@@ -54,7 +54,13 @@
     return groupEndTimes.get(group);
   };
 
-  counters.forEach((counter) => {
+  const startCounter = (counter) => {
+    if (!counter || counter.dataset.counterStarted === 'true') {
+      return;
+    }
+
+    counter.dataset.counterStarted = 'true';
+
     const url = counter.getAttribute('data-node-counter-url');
     const valueEl = counter.querySelector('[data-node-count]');
     const statusEl = counter.querySelector('[data-node-status]');
@@ -69,6 +75,11 @@
     }
 
     valueEl.textContent = formatter.format(startValue);
+
+    const row = counter.closest('.home-stats');
+    if (row) {
+      row.classList.add('home-stats--reveal');
+    }
 
     if (Number.isFinite(targetValue)) {
       animateValue(counter, valueEl, startValue, targetValue, getRemainingDuration());
@@ -115,12 +126,24 @@
           statusEl.textContent = 'Live count unavailable';
         }
       });
-  });
+  };
 
-  const statsRows = document.querySelectorAll('.home-stats');
-  statsRows.forEach((row) => {
-    requestAnimationFrame(() => {
-      row.classList.add('home-stats--reveal');
-    });
-  });
+  if ('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) {
+            return;
+          }
+          startCounter(entry.target);
+          observer.unobserve(entry.target);
+        });
+      },
+      { threshold: 0.35 }
+    );
+
+    counters.forEach((counter) => observer.observe(counter));
+  } else {
+    counters.forEach((counter) => startCounter(counter));
+  }
 })();
