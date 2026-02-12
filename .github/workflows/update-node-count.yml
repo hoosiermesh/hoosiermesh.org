@@ -42,7 +42,11 @@ jobs:
             handle.write('\n')
 
           invite_url = 'https://discord.com/api/v10/invites/VrFcGTrw6V?with_counts=true'
-          with urllib.request.urlopen(invite_url) as response:
+          invite_request = urllib.request.Request(
+            invite_url,
+            headers={'User-Agent': 'hoosiermesh.org counter'}
+          )
+          with urllib.request.urlopen(invite_request) as response:
             invite_data = json.load(response)
 
           member_count = invite_data.get('approximate_member_count')
