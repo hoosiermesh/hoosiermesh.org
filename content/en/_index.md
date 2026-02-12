@@ -23,14 +23,7 @@ images: ["/images/hm_pwd_720.webp"]
       Join Discord <i class="fab fa-discord ms-2 "></i>
     </a>
   </p>
-  <div class="node-counter mt-4" data-node-counter data-node-counter-url="/.netlify/functions/node-count" data-node-start="0" data-node-duration="1400">
-    <div class="node-counter__label">Live mesh nodes</div>
-    <div class="node-counter__value" data-node-count>0</div>
-    <div class="node-counter__meta">
-      <span data-node-status>Loading live count...</span>
-      <a href="https://meshmap.tranziq.net/#nodes" target="_blank" rel="noopener">View map</a>
-    </div>
-  </div>
+  {{< node-counter >}}
 </div>
 
 <script src="/js/node-counter.js" defer></script>
