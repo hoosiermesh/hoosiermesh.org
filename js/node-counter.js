@@ -57,6 +57,8 @@
         count = data.length;
       } else if (Array.isArray(data.nodes)) {
         count = data.nodes.length;
+      } else if (data.statistics && typeof data.statistics.nodes === 'number') {
+        count = data.statistics.nodes;
       } else if (typeof data.count === 'number') {
         count = data.count;
       } else if (typeof data.nodeCount === 'number') {
