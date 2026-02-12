@@ -60,7 +60,7 @@
     const statusEl = counter.querySelector('[data-node-status]');
     const targetValue = Number.parseInt(counter.getAttribute('data-node-target') || '', 10);
     const startValue = Number.parseInt(counter.getAttribute('data-node-start') || '0', 10);
-    const durationMs = Number.parseInt(counter.getAttribute('data-node-duration') || '1200', 10);
+    const durationMs = Number.parseInt(counter.getAttribute('data-node-duration') || '2600', 10);
     const endTime = getGroupEndTime(counter, durationMs);
     const getRemainingDuration = () => Math.max(0, endTime - performance.now());
 
