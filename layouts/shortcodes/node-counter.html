@@ -7,7 +7,10 @@
 {{ end }}
 <div class="node-counter mt-4" data-node-counter data-node-start="0" data-node-duration="1400" data-node-target="{{ $count }}">
   <div class="node-counter__label">Live mesh nodes</div>
-  <div class="node-counter__value" data-node-count>{{ $count }}</div>
+  <div class="node-counter__value">
+    <span data-node-count>{{ $count }}</span>
+    <span class="node-counter__plus" aria-hidden="true">+</span>
+  </div>
   <div class="node-counter__meta">
     <span data-node-status>{{- if $timestamp -}}Updated {{ $timestamp }}{{- else -}}Updated recently{{- end -}}</span>
     <a href="https://meshmap.tranziq.net/#nodes" target="_blank" rel="noopener">View map</a>
