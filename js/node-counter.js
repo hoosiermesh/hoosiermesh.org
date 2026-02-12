@@ -6,8 +6,8 @@
 
   const formatter = new Intl.NumberFormat();
 
-  const animateValue = (valueEl, from, to, duration) => {
-    if (!valueEl || !Number.isFinite(from) || !Number.isFinite(to)) {
+  const animateValue = (counter, valueEl, from, to, duration) => {
+    if (!counter || !valueEl || !Number.isFinite(from) || !Number.isFinite(to)) {
       return;
     }
 
@@ -28,6 +28,12 @@
       setValue(current);
       if (progress < 1) {
         requestAnimationFrame(step);
+      } else {
+        counter.classList.remove('node-counter--pulse');
+        counter.classList.add('node-counter--pulse');
+        setTimeout(() => {
+          counter.classList.remove('node-counter--pulse');
+        }, 700);
       }
     };
 
@@ -49,7 +55,7 @@
     valueEl.textContent = formatter.format(startValue);
 
     if (Number.isFinite(targetValue)) {
-      animateValue(valueEl, startValue, targetValue, durationMs);
+      animateValue(counter, valueEl, startValue, targetValue, durationMs);
       return;
     }
 
@@ -82,7 +88,7 @@
           throw new Error('Unexpected data shape');
         }
 
-        animateValue(valueEl, startValue, count, durationMs);
+        animateValue(counter, valueEl, startValue, count, durationMs);
         if (statusEl) {
           statusEl.textContent = 'Live nodes right now';
         }
@@ -93,5 +99,12 @@
           statusEl.textContent = 'Live count unavailable';
         }
       });
+  });
+
+  const statsRows = document.querySelectorAll('.home-stats');
+  statsRows.forEach((row) => {
+    requestAnimationFrame(() => {
+      row.classList.add('home-stats--reveal');
+    });
   });
 })();
