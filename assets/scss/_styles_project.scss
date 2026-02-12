@@ -29,6 +29,46 @@ https://www.docsy.dev/docs/content/lookandfeel/#project-style-files
 	align-items: center;
 }
 
+.node-counter {
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.35rem;
+	padding: 0.65rem 1.5rem;
+	border-radius: 999px;
+	background: rgba(0, 0, 0, 0.25);
+	color: #fff;
+	backdrop-filter: blur(4px);
+}
+
+.node-counter__label {
+	font-size: 0.9rem;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	opacity: 0.85;
+}
+
+.node-counter__value {
+	font-size: clamp(2rem, 2.2vw, 2.75rem);
+	font-weight: 700;
+	line-height: 1;
+	font-variant-numeric: tabular-nums;
+}
+
+.node-counter__meta {
+	font-size: 0.85rem;
+	opacity: 0.85;
+}
+
+.node-counter__meta a {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.node-counter--error .node-counter__value {
+	opacity: 0.6;
+}
+
 @media (max-width: 575.98px) {
 	.home-cta {
 		flex-direction: column;
