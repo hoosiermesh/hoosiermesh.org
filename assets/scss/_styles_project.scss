@@ -36,6 +36,7 @@ https://www.docsy.dev/docs/content/lookandfeel/#project-style-files
 	align-items: center;
 	gap: 0.4rem;
 	padding: 0.85rem 1.75rem;
+	min-width: 13.5rem;
 	border-radius: 999px;
 	margin: 0;
 	background: linear-gradient(135deg, rgba($secondary, 0.2), rgba(11, 16, 20, 0.9));
@@ -51,20 +52,6 @@ https://www.docsy.dev/docs/content/lookandfeel/#project-style-files
 	justify-content: center;
 	gap: 1rem;
 	margin-top: 1.5rem;
-}
-
-.node-counter--link {
-	text-decoration: none;
-}
-
-.node-counter--link:hover {
-	transform: translateY(-1px);
-	box-shadow: 0 22px 55px rgba(0, 0, 0, 0.4);
-}
-
-.node-counter--link:focus-visible {
-	outline: 2px solid rgba($secondary, 0.9);
-	outline-offset: 4px;
 }
 
 .node-counter--static {
@@ -110,5 +97,12 @@ https://www.docsy.dev/docs/content/lookandfeel/#project-style-files
 		width: 100%;
 		max-width: 20rem;
 		margin-right: 0 !important;
+	}
+}
+
+@media (max-width: 767.98px) {
+	.node-counter {
+		width: 100%;
+		max-width: 20rem;
 	}
 }

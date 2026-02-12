@@ -3,10 +3,10 @@
 {{- with $data -}}
 {{- $count = .nodeCount | default 0 -}}
 {{- end -}}
-<a class="node-counter node-counter--link" href="https://meshmap.tranziq.net" target="_blank" rel="noopener" data-node-counter data-node-start="0" data-node-duration="1400" data-node-target="{{ $count }}">
+<div class="node-counter" data-node-counter data-node-start="0" data-node-duration="1400" data-node-target="{{ $count }}">
 <div class="node-counter__label">Active nodes</div>
 <div class="node-counter__value">
 <span data-node-count>{{ $count }}</span>
 <span class="node-counter__plus" aria-hidden="true">+</span>
 </div>
-</a>
+</div>
