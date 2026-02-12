@@ -51,7 +51,15 @@ https://www.docsy.dev/docs/content/lookandfeel/#project-style-files
 	flex-wrap: wrap;
 	justify-content: center;
 	gap: 1rem;
-	margin-top: 2.5rem;
+	margin-top: 3.5rem;
+}
+
+body.td-home .td-box--primary {
+	padding-top: 1.5rem;
+}
+
+body.td-home .td-box--primary .h4 {
+	margin-top: 0;
 }
 
 .home-stats .node-counter {
