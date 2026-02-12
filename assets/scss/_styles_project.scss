@@ -82,6 +82,37 @@ https://www.docsy.dev/docs/content/lookandfeel/#project-style-files
 	opacity: 0.6;
 }
 
+.navbar-node-counter {
+	display: flex;
+	align-items: center;
+	margin-left: 1rem;
+}
+
+.navbar-node-counter .node-counter {
+	margin: 0;
+	padding: 0.45rem 1.1rem;
+	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-node-counter .node-counter__label {
+	font-size: 0.7rem;
+	letter-spacing: 0.18em;
+}
+
+.navbar-node-counter .node-counter__value {
+	font-size: 1.6rem;
+}
+
+.navbar-node-counter .node-counter__meta {
+	font-size: 0.72rem;
+}
+
+@media (max-width: 991.98px) {
+	.navbar-node-counter {
+		display: none;
+	}
+}
+
 @media (max-width: 575.98px) {
 	.home-cta {
 		flex-direction: column;
