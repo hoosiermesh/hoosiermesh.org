@@ -16,11 +16,11 @@ images: ["/images/hm_pwd_720.webp"]
 <div class="pt-3 lead">
   <p class="display-6">Community-powered connectivity for Indiana</p>
   <p class="p-initial my-5 home-cta">
-    <a class="btn btn-lg btn-primary me-3" href="/docs/getting-started/get-a-node/">
-      Get a node <i class="fas fa-arrow-alt-circle-right ms-2"></i>
-    </a>
     <a class="btn btn-lg btn-secondary" href="https://discord.gg/VrFcGTrw6V" target="_blank">
       Join Discord <i class="fab fa-discord ms-2 "></i>
+    </a>
+    <a class="btn btn-lg btn-primary me-3" href="/docs/getting-started/get-a-node/">
+      Get a node <i class="fas fa-arrow-alt-circle-right ms-2"></i>
     </a>
   </p>
 </div>
@@ -34,8 +34,8 @@ images: ["/images/hm_pwd_720.webp"]
 Hoosier Mesh is a community-driven initiative focused on promoting the use of [Meshtastic](https://meshtastic.org), an open-source mesh communication technology. The goal is  create a resilient, decentralized communication infrastructure throughout the state of Indiana.
 
 <div class="home-stats">
-{{< node-counter >}}
 {{< discord-counter >}}
+{{< node-counter >}}
 </div>
 
 {{% /blocks/lead %}}
