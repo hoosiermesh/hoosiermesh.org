@@ -40,6 +40,20 @@
     requestAnimationFrame(step);
   };
 
+  const groupEndTimes = new WeakMap();
+  const getGroupEndTime = (counter, durationMs) => {
+    const group = counter.closest('.home-stats');
+    if (!group) {
+      return performance.now() + durationMs;
+    }
+
+    if (!groupEndTimes.has(group)) {
+      groupEndTimes.set(group, performance.now() + durationMs);
+    }
+
+    return groupEndTimes.get(group);
+  };
+
   counters.forEach((counter) => {
     const url = counter.getAttribute('data-node-counter-url');
     const valueEl = counter.querySelector('[data-node-count]');
@@ -47,6 +61,8 @@
     const targetValue = Number.parseInt(counter.getAttribute('data-node-target') || '', 10);
     const startValue = Number.parseInt(counter.getAttribute('data-node-start') || '0', 10);
     const durationMs = Number.parseInt(counter.getAttribute('data-node-duration') || '1200', 10);
+    const endTime = getGroupEndTime(counter, durationMs);
+    const getRemainingDuration = () => Math.max(0, endTime - performance.now());
 
     if (!valueEl) {
       return;
@@ -55,7 +71,7 @@
     valueEl.textContent = formatter.format(startValue);
 
     if (Number.isFinite(targetValue)) {
-      animateValue(counter, valueEl, startValue, targetValue, durationMs);
+      animateValue(counter, valueEl, startValue, targetValue, getRemainingDuration());
       return;
     }
 
@@ -88,7 +104,7 @@
           throw new Error('Unexpected data shape');
         }
 
-        animateValue(counter, valueEl, startValue, count, durationMs);
+        animateValue(counter, valueEl, startValue, count, getRemainingDuration());
         if (statusEl) {
           statusEl.textContent = 'Live nodes right now';
         }
