@@ -23,7 +23,7 @@ images: ["/images/hm_pwd_720.webp"]
       Join Discord <i class="fab fa-discord ms-2 "></i>
     </a>
   </p>
-  <div class="node-counter mt-4" data-node-counter data-node-counter-url="https://meshmap.tranziq.net/api/nodes" data-node-start="0" data-node-duration="1400">
+  <div class="node-counter mt-4" data-node-counter data-node-counter-url="https://meshmap.tranziq.net/api/status" data-node-start="0" data-node-duration="1400">
     <div class="node-counter__label">Live mesh nodes</div>
     <div class="node-counter__value" data-node-count>0</div>
     <div class="node-counter__meta">
