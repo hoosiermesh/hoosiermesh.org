@@ -23,9 +23,7 @@ images: ["/images/hm_pwd_720.webp"]
       Join Discord <i class="fab fa-discord ms-2 "></i>
     </a>
   </p>
-  <div class="home-counter">
-    {{< node-counter >}}
-  </div>
+{{< node-counter >}}
 </div>
 
 <script src="/js/node-counter.js" defer></script>
