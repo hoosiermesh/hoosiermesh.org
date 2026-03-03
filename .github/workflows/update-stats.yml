@@ -23,15 +23,15 @@ jobs:
           import time
           import urllib.request
 
-          url = 'https://meshmap.tranziq.net/api/status'
+          url = 'https://meshmalla.tranziq.net/api/analytics'
           with urllib.request.urlopen(url) as response:
             data = json.load(response)
 
-          count = data.get('statistics', {}).get('nodes')
-          timestamp = data.get('timestamp')
+          count = data.get('node_statistics', {}).get('active_nodes')
+          timestamp = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
 
           if not isinstance(count, int):
-            raise SystemExit('Missing node count in status payload')
+            raise SystemExit('Missing active node count in analytics payload')
 
           output = {
             'nodeCount': count,

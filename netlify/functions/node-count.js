@@ -1,6 +1,6 @@
 'use strict';
 
-const STATUS_URL = 'https://meshmap.tranziq.net/api/status';
+const STATUS_URL = 'https://meshmalla.tranziq.net/api/analytics';
 
 exports.handler = async () => {
   try {
@@ -19,14 +19,14 @@ exports.handler = async () => {
           'cache-control': 'no-store'
         },
         body: JSON.stringify({
-          error: 'meshmonitor-status-error',
+          error: 'meshmalla-status-error',
           status: response.status
         })
       };
     }
 
     const data = await response.json();
-    const count = data && data.statistics ? data.statistics.nodes : null;
+    const count = data && data.node_statistics ? data.node_statistics.active_nodes : null;
 
     if (typeof count !== 'number') {
       return {
@@ -37,7 +37,7 @@ exports.handler = async () => {
           'cache-control': 'no-store'
         },
         body: JSON.stringify({
-          error: 'meshmonitor-status-shape'
+          error: 'meshmalla-status-shape'
         })
       };
     }
@@ -51,7 +51,7 @@ exports.handler = async () => {
       },
       body: JSON.stringify({
         nodeCount: count,
-        timestamp: data.timestamp || null
+        timestamp: new Date().toISOString()
       })
     };
   } catch (error) {
@@ -63,7 +63,7 @@ exports.handler = async () => {
         'cache-control': 'no-store'
       },
       body: JSON.stringify({
-        error: 'meshmonitor-status-unavailable'
+        error: 'meshmalla-status-unavailable'
       })
     };
   }
