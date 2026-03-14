@@ -197,7 +197,19 @@ information on using pull requests.&lt;/p&gt;</description></item><item><title>A
 &lt;h1 id="want-to-meet-other-meshers-join-our-community"&gt;Want to meet other Meshers? Join our &lt;a href="https://hoosiermesh.org/community/"&gt;community&lt;/a&gt;&lt;a class="td-heading-self-link" href="#want-to-meet-other-meshers-join-our-community" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h1&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/section&gt;</description></item><item><title>Events</title><link>https://hoosiermesh.org/events/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/events/</guid><description>&lt;section id="td-cover-block-0" class="row td-cover-block td-cover-block--height-auto js-td-cover td-overlay td-overlay--dark -bg-dark"&gt;
+&lt;/section&gt;</description></item><item><title>Events</title><link>https://hoosiermesh.org/events/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://hoosiermesh.org/events/</guid><description>&lt;link rel="preload" as="image" href="https://hoosiermesh.org/events/featured-background_hu_d0db4ff5ceb2842e.webp" media="(max-width: 1200px)"&gt;
+&lt;link rel="preload" as="image" href="https://hoosiermesh.org/events/featured-background_hu_45822c03388f7b7.webp" media="(min-width: 1200px)"&gt;
+&lt;style&gt;
+#td-cover-block-0 {
+ background-image: url(/events/featured-background_hu_d0db4ff5ceb2842e.webp);
+}
+@media only screen and (min-width: 1200px) {
+ #td-cover-block-0 {
+ background-image: url(/events/featured-background_hu_45822c03388f7b7.webp);
+ }
+}
+&lt;/style&gt;
+&lt;section id="td-cover-block-0" class="row td-cover-block td-cover-block--height-auto js-td-cover td-overlay td-overlay--dark -bg-dark"&gt;
  &lt;div class="col-12"&gt;
  &lt;div class="container td-overlay__inner"&gt;
  &lt;div class="text-center"&gt;
