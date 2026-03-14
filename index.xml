@@ -215,21 +215,10 @@ information on using pull requests.&lt;/p&gt;</description></item><item><title>A
 &lt;/section&gt;
 
 &lt;div&gt;&lt;a id="td-block-1" class="td-offset-anchor"&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;section class="row td-box td-box--1 position-relative td-box--height-auto"&gt;
-&lt;div class="col-12"&gt;
-&lt;div class="container text-center td-arrow-down"&gt;
-&lt;div class="h4 mb-0"&gt;
-&lt;p&gt;Check the calendar below for upcoming Hoosier Mesh events.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/section&gt;
-&lt;div&gt;&lt;a id="td-block-2" class="td-offset-anchor"&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;section class="row td-box td-box--2 td-box--height-auto"&gt;
+&lt;section class="row td-box td-box--1 td-box--height-auto"&gt;
 &lt;div class="col"&gt;
 &lt;div class="row"&gt;
-&lt;h2 id="upcoming-events"&gt;Upcoming Events&lt;a class="td-heading-self-link" href="#upcoming-events" aria-label="Heading self-link"&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;div style="position: relative; width: 100%; aspect-ratio: 4 / 3;"&gt;
+&lt;div style="position: relative; width: 100%; aspect-ratio: 16 / 9; max-height: 70vh;"&gt;
 	&lt;iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;ctz=America%2FIndiana%2FIndianapolis&amp;title=Hoosier%20Mesh&amp;showPrint=0&amp;showCalendars=0&amp;showTabs=0&amp;showTitle=0&amp;src=NGMwZjU5ZmNmYmI2NDMwY2QzODdjNDEwMGJkNDQ5M2NhMTU1YTMzOGZmYzk4YjJkYzgyMGZjZDg5MWIzOGQyZkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%2333b679" style="position: absolute; inset: 0; width: 100%; height: 100%; border: solid 1px #777;" frameborder="0" scrolling="no"&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 &lt;/div&gt;
