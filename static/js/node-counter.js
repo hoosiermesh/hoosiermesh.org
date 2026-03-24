@@ -104,87 +104,116 @@
       });
   };
 
-  const groupEndTimes = new WeakMap();
-  const getGroupEndTime = (counter, durationMs) => {
-    const group = counter.closest('.home-stats');
-    if (!group) {
-      return performance.now() + durationMs;
+  const getCounterGroup = (counter) => counter.closest('.home-stats') || counter;
+  const getGroupCounters = (counter) => {
+    const group = getCounterGroup(counter);
+    if (!group || group === counter) {
+      return [counter];
     }
-
-    if (!groupEndTimes.has(group)) {
-      groupEndTimes.set(group, performance.now() + durationMs);
-    }
-
-    return groupEndTimes.get(group);
+    return Array.from(group.querySelectorAll('[data-node-counter]'));
   };
 
-  const startCounter = (counter) => {
-    if (!counter || counter.dataset.counterStarted === 'true') {
-      return;
+  const resolveTarget = ({ targetValue, url, fallbackUrl, renderedValue, startValue }) => {
+    if (Number.isFinite(targetValue)) {
+      return Promise.resolve({ count: targetValue, statusText: '', isError: false });
     }
 
-    counter.dataset.counterStarted = 'true';
-
-    const url = counter.getAttribute('data-node-counter-url');
-    const valueEl = counter.querySelector('[data-node-count]');
-    const statusEl = counter.querySelector('[data-node-status]');
-    const fallbackUrl = counter.getAttribute('data-node-fallback-url');
-    const renderedValue = parseCounterNumber(valueEl.textContent || '');
-    const targetValue = Number.parseInt(counter.getAttribute('data-node-target') || '', 10);
-    const startAttribute = counter.getAttribute('data-node-start');
-    const startValue = startAttribute === null ? (renderedValue ?? 0) : Number.parseInt(startAttribute, 10);
-    const durationMs = Number.parseInt(counter.getAttribute('data-node-duration') || '2600', 10);
-    const endTime = getGroupEndTime(counter, durationMs);
-    const getRemainingDuration = () => Math.max(0, endTime - performance.now());
-
-    if (!valueEl) {
-      return;
+    if (!url) {
+      const hasRenderedValue = renderedValue !== null;
+      return Promise.resolve({
+        count: hasRenderedValue ? renderedValue : startValue,
+        statusText: hasRenderedValue ? 'Showing latest cached count' : 'Live count unavailable',
+        isError: !hasRenderedValue
+      });
     }
 
-    valueEl.textContent = formatter.format(startValue);
+    return fetchCount(url)
+      .then((count) => ({ count, statusText: 'Live nodes right now', isError: false }))
+      .catch(() =>
+        fetchCount(fallbackUrl)
+          .then((count) => ({ count, statusText: 'Showing latest cached count', isError: false }))
+          .catch(() => {
+            const hasRenderedValue = renderedValue !== null;
+            return {
+              count: hasRenderedValue ? renderedValue : startValue,
+              statusText: hasRenderedValue ? 'Showing latest cached count' : 'Live count unavailable',
+              isError: true
+            };
+          })
+      );
+  };
 
-    const row = counter.closest('.home-stats');
+  const groupStartState = new WeakMap();
+
+  const startGroup = (entryCounter) => {
+    const group = getCounterGroup(entryCounter);
+    if (groupStartState.has(group)) {
+      return;
+    }
+    groupStartState.set(group, true);
+
+    const countersInGroup = getGroupCounters(entryCounter);
+    const row = entryCounter.closest('.home-stats');
     if (row) {
       row.classList.add('home-stats--reveal');
     }
 
-    if (Number.isFinite(targetValue)) {
-      animateValue(counter, valueEl, startValue, targetValue, getRemainingDuration());
-      return;
-    }
-
-    if (!url) {
-      return;
-    }
-
-    fetchCount(url)
-      .then((count) => {
-        animateValue(counter, valueEl, startValue, count, getRemainingDuration());
-        if (statusEl) {
-          statusEl.textContent = 'Live nodes right now';
+    const jobs = countersInGroup
+      .map((counter) => {
+        if (!counter || counter.dataset.counterStarted === 'true') {
+          return null;
         }
-      })
-      .catch(() => {
-        fetchCount(fallbackUrl)
-          .then((count) => {
-            const currentValue = parseCounterNumber(valueEl.textContent || '') ?? startValue;
-            animateValue(counter, valueEl, currentValue, count, getRemainingDuration());
-            if (statusEl) {
-              statusEl.textContent = 'Showing latest cached count';
-            }
-          })
-          .catch(() => {
-            if (renderedValue !== null) {
-              const currentValue = parseCounterNumber(valueEl.textContent || '') ?? 0;
-              animateValue(counter, valueEl, currentValue, renderedValue, getRemainingDuration());
-            }
 
-            counter.classList.add('node-counter--error');
-            if (statusEl) {
-              statusEl.textContent = renderedValue === null ? 'Live count unavailable' : 'Showing latest cached count';
-            }
-          });
+        counter.dataset.counterStarted = 'true';
+
+        const valueEl = counter.querySelector('[data-node-count]');
+        if (!valueEl) {
+          return null;
+        }
+
+        const statusEl = counter.querySelector('[data-node-status]');
+        const renderedValue = parseCounterNumber(valueEl.textContent || '');
+        const targetValue = Number.parseInt(counter.getAttribute('data-node-target') || '', 10);
+        const startAttribute = counter.getAttribute('data-node-start');
+        const startValue = startAttribute === null ? (renderedValue ?? 0) : Number.parseInt(startAttribute, 10);
+        const rawDuration = Number.parseInt(counter.getAttribute('data-node-duration') || '2200', 10);
+        const durationMs = Number.isFinite(rawDuration) && rawDuration > 0 ? rawDuration : 2200;
+        const url = counter.getAttribute('data-node-counter-url');
+        const fallbackUrl = counter.getAttribute('data-node-fallback-url');
+
+        valueEl.textContent = formatter.format(startValue);
+
+        return {
+          counter,
+          valueEl,
+          statusEl,
+          startValue,
+          durationMs,
+          targetPromise: resolveTarget({ targetValue, url, fallbackUrl, renderedValue, startValue })
+        };
+      })
+      .filter(Boolean);
+
+    if (!jobs.length) {
+      return;
+    }
+
+    Promise.all(jobs.map((job) => job.targetPromise)).then((results) => {
+      const sharedDuration = jobs.reduce((maxDuration, job) => Math.max(maxDuration, job.durationMs), 0);
+
+      jobs.forEach((job, index) => {
+        const result = results[index];
+        animateValue(job.counter, job.valueEl, job.startValue, result.count, sharedDuration);
+
+        if (job.statusEl && result.statusText) {
+          job.statusEl.textContent = result.statusText;
+        }
+
+        if (result.isError) {
+          job.counter.classList.add('node-counter--error');
+        }
       });
+    });
   };
 
   if ('IntersectionObserver' in window) {
@@ -194,8 +223,11 @@
           if (!entry.isIntersecting) {
             return;
           }
-          startCounter(entry.target);
-          observer.unobserve(entry.target);
+
+          startGroup(entry.target);
+          getGroupCounters(entry.target).forEach((counter) => {
+            observer.unobserve(counter);
+          });
         });
       },
       { threshold: 0.35 }
@@ -203,6 +235,6 @@
 
     counters.forEach((counter) => observer.observe(counter));
   } else {
-    counters.forEach((counter) => startCounter(counter));
+    counters.forEach((counter) => startGroup(counter));
   }
 })();
