@@ -19,8 +19,11 @@ images: ["/images/hm_pwd_720.webp"]
     <a class="btn btn-lg btn-primary me-3" href="/docs/getting-started/get-a-node/">
       Get a node <i class="fas fa-arrow-alt-circle-right ms-2"></i>
     </a>
-    <a class="btn btn-lg btn-secondary" href="https://discord.gg/VrFcGTrw6V" target="_blank">
+    <a class="btn btn-lg btn-secondary me-3" href="https://discord.gg/VrFcGTrw6V" target="_blank">
       Join Discord <i class="fab fa-discord ms-2 "></i>
+    </a>
+    <a class="btn btn-lg btn-secondary" href="/events/">
+      Upcoming Events <i class="fas fa-calendar-alt ms-2"></i>
     </a>
   </p>
 </div>
@@ -28,16 +31,6 @@ images: ["/images/hm_pwd_720.webp"]
 <script src="/js/node-counter.js" defer></script>
 
 {{< /blocks/cover >}}
-
-{{% blocks/section type="row" color="dark" %}}
-
-## Upcoming event
-
-{{< upcoming-events limit="1" timezone="America/New_York" >}}
-
-<script src="/js/upcoming-events.js" defer></script>
-
-{{% /blocks/section %}}
 
 {{% blocks/lead color="primary" %}}
 
