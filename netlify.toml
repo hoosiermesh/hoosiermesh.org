@@ -10,3 +10,8 @@ GO_VERSION = "1.22.2"
 
 [context.production]
 command = "npm run build:production"
+
+[[redirects]]
+from = "/api/next-event"
+to = "/.netlify/functions/next-event"
+status = 200

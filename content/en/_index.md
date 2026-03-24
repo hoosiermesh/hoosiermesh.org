@@ -26,7 +26,7 @@ images: ["/images/hm_pwd_720.webp"]
       class="btn btn-lg btn-info"
       href="/events/"
       data-home-upcoming-event-button
-      data-home-upcoming-event-url="/.netlify/functions/next-event"
+      data-home-upcoming-event-url="/api/next-event"
       data-home-upcoming-event-fallback="Upcoming Event"
     >
       <span data-home-upcoming-event-label>Upcoming Event</span> <i class="fas fa-calendar-alt ms-2"></i>

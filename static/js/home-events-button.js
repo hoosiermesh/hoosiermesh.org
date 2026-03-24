@@ -4,7 +4,9 @@
     return;
   }
 
-  const endpoint = button.getAttribute('data-home-upcoming-event-url') || '/.netlify/functions/next-event';
+  const preferredEndpoint = button.getAttribute('data-home-upcoming-event-url') || '/api/next-event';
+  const fallbackEndpoint = '/.netlify/functions/next-event';
+  const endpoints = Array.from(new Set([preferredEndpoint, fallbackEndpoint]));
   const labelPrefix = button.getAttribute('data-home-upcoming-event-fallback') || 'Upcoming Event';
 
   const labelNode = button.querySelector('[data-home-upcoming-event-label]');
@@ -28,22 +30,40 @@
     }).format(value);
   };
 
-  fetch(endpoint, { cache: 'no-store' })
-    .then((response) => {
-      if (!response.ok) {
-        throw new Error(`Unexpected response: ${response.status}`);
+  const extractStartAt = (payload) => {
+    if (payload?.event?.startAt) {
+      return payload.event.startAt;
+    }
+    if (Array.isArray(payload?.events) && payload.events[0]?.startAt) {
+      return payload.events[0].startAt;
+    }
+    return null;
+  };
+
+  const fetchDateFromEndpoint = (endpoint) =>
+    fetch(endpoint, { cache: 'no-store' })
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(`Unexpected response: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then((payload) => formatMonthDay(extractStartAt(payload)));
+
+  const loadDate = async () => {
+    for (const endpoint of endpoints) {
+      try {
+        const monthDay = await fetchDateFromEndpoint(endpoint);
+        if (monthDay) {
+          setLabel(monthDay);
+          return;
+        }
+      } catch (_error) {
       }
-      return response.json();
-    })
-    .then((payload) => {
-      const monthDay = formatMonthDay(payload?.event?.startAt);
-      if (!monthDay) {
-        setLabel(null);
-        return;
-      }
-      setLabel(monthDay);
-    })
-    .catch(() => {
-      setLabel(null);
-    });
+    }
+
+    setLabel(null);
+  };
+
+  loadDate();
 })();
