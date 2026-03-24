@@ -15,3 +15,13 @@ command = "npm run build:production"
 from = "/api/next-event"
 to = "/.netlify/functions/next-event"
 status = 200
+
+[[redirects]]
+from = "/api/node-count"
+to = "/.netlify/functions/node-count"
+status = 200
+
+[[redirects]]
+from = "/api/discord-count"
+to = "/.netlify/functions/discord-count"
+status = 200

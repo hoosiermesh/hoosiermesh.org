@@ -3,8 +3,8 @@
 {{- with $data -}}
 {{- $count = .memberCount | default 0 -}}
 {{- end -}}
-<div class="node-counter" data-node-counter data-node-start="0" data-node-duration="3000" data-node-target="{{ $count }}">
-<div class="node-counter__label">Meshers</div>
+<div class="node-counter" data-node-counter data-node-start="0" data-node-duration="3000" data-node-counter-url="/api/discord-count">
+<div class="node-counter__label">Members</div>
 <div class="node-counter__value">
 <span data-node-count>{{ $count }}</span>
 <span class="node-counter__plus" aria-hidden="true">+</span>

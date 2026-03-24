@@ -1,12 +1,12 @@
 'use strict';
 
-const STATUS_URL = 'https://meshmalla.tranziq.net/api/analytics';
+const DISCORD_INVITE_URL = 'https://discord.com/api/v10/invites/VrFcGTrw6V?with_counts=true';
 
 exports.handler = async () => {
   try {
-    const response = await fetch(STATUS_URL, {
+    const response = await fetch(DISCORD_INVITE_URL, {
       headers: {
-        'user-agent': 'hoosiermesh.org node counter'
+        'user-agent': 'hoosiermesh.org discord counter'
       }
     });
 
@@ -19,16 +19,17 @@ exports.handler = async () => {
           'cache-control': 'no-store'
         },
         body: JSON.stringify({
-          error: 'meshmalla-status-error',
+          error: 'discord-count-error',
           status: response.status
         })
       };
     }
 
     const data = await response.json();
-    const count = data && data.node_statistics ? data.node_statistics.total_nodes : null;
+    const memberCount = data ? data.approximate_member_count : null;
+    const presenceCount = data ? data.approximate_presence_count : null;
 
-    if (typeof count !== 'number') {
+    if (typeof memberCount !== 'number') {
       return {
         statusCode: 502,
         headers: {
@@ -37,7 +38,7 @@ exports.handler = async () => {
           'cache-control': 'no-store'
         },
         body: JSON.stringify({
-          error: 'meshmalla-status-shape'
+          error: 'discord-count-shape'
         })
       };
     }
@@ -50,7 +51,9 @@ exports.handler = async () => {
         'cache-control': 'no-store'
       },
       body: JSON.stringify({
-        nodeCount: count,
+        count: memberCount,
+        memberCount,
+        presenceCount,
         timestamp: new Date().toISOString()
       })
     };
@@ -63,7 +66,7 @@ exports.handler = async () => {
         'cache-control': 'no-store'
       },
       body: JSON.stringify({
-        error: 'meshmalla-status-unavailable'
+        error: 'discord-count-unavailable'
       })
     };
   }

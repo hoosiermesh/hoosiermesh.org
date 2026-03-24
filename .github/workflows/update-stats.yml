@@ -27,11 +27,11 @@ jobs:
           with urllib.request.urlopen(url) as response:
             data = json.load(response)
 
-          count = data.get('node_statistics', {}).get('active_nodes')
+          count = data.get('node_statistics', {}).get('total_nodes')
           timestamp = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
 
           if not isinstance(count, int):
-            raise SystemExit('Missing active node count in analytics payload')
+            raise SystemExit('Missing total node count in analytics payload')
 
           output = {
             'nodeCount': count,
