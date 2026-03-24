@@ -29,6 +29,16 @@ images: ["/images/hm_pwd_720.webp"]
 
 {{< /blocks/cover >}}
 
+{{% blocks/section type="row" color="dark" %}}
+
+## Upcoming event
+
+{{< upcoming-events limit="1" timezone="America/New_York" >}}
+
+<script src="/js/upcoming-events.js" defer></script>
+
+{{% /blocks/section %}}
+
 {{% blocks/lead color="primary" %}}
 
 Hoosier Mesh is a community-driven initiative focused on promoting the use of [Meshtastic](https://meshtastic.org), an open-source mesh communication technology. The goal is  create a resilient, decentralized communication infrastructure throughout the state of Indiana.

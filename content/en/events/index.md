@@ -1,7 +1,9 @@
 ---
 title: Events
 linkTitle: Events
-menu: { main: { weight: 11 } }
+menu:
+  main:
+    weight: 11
 ---
 
 {{% blocks/cover title="Events" image_anchor="bottom" height="auto" %}}
