@@ -46,12 +46,12 @@
   "devDependencies": {
     "autoprefixer": "^10.4.27",
     "cross-env": "^10.1.0",
-    "hugo-extended": "0.157.0",
+    "hugo-extended": "0.158.0",
     "postcss-cli": "^11.0.1",
     "rtlcss": "^4.3.0"
   },
   "optionalDependencies": {
-    "npm-check-updates": "^19.6.3"
+    "npm-check-updates": "^19.6.5"
   },
   "engines": {
     "node": ">=22"
