@@ -5,6 +5,19 @@
   }
 
   const formatter = new Intl.NumberFormat();
+  const parseCounterNumber = (value) => {
+    if (typeof value !== 'string') {
+      return null;
+    }
+
+    const normalized = value.replace(/[^0-9-]/g, '');
+    if (!normalized) {
+      return null;
+    }
+
+    const parsed = Number.parseInt(normalized, 10);
+    return Number.isFinite(parsed) ? parsed : null;
+  };
 
   const animateValue = (counter, valueEl, from, to, duration) => {
     if (!counter || !valueEl || !Number.isFinite(from) || !Number.isFinite(to)) {
@@ -40,6 +53,57 @@
     requestAnimationFrame(step);
   };
 
+  const extractCount = (data) => {
+    if (Array.isArray(data)) {
+      return data.length;
+    }
+
+    if (Array.isArray(data.nodes)) {
+      return data.nodes.length;
+    }
+
+    if (data.statistics && typeof data.statistics.nodes === 'number') {
+      return data.statistics.nodes;
+    }
+
+    if (typeof data.count === 'number') {
+      return data.count;
+    }
+
+    if (typeof data.nodeCount === 'number') {
+      return data.nodeCount;
+    }
+
+    if (typeof data.memberCount === 'number') {
+      return data.memberCount;
+    }
+
+    return null;
+  };
+
+  const fetchCount = (url) => {
+    if (!url) {
+      return Promise.reject(new Error('Missing URL'));
+    }
+
+    return fetch(url, { cache: 'no-store' })
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(`Unexpected response: ${response.status}`);
+        }
+
+        return response.json();
+      })
+      .then((data) => {
+        const count = extractCount(data);
+        if (!Number.isFinite(count)) {
+          throw new Error('Unexpected data shape');
+        }
+
+        return count;
+      });
+  };
+
   const groupEndTimes = new WeakMap();
   const getGroupEndTime = (counter, durationMs) => {
     const group = counter.closest('.home-stats');
@@ -64,8 +128,11 @@
     const url = counter.getAttribute('data-node-counter-url');
     const valueEl = counter.querySelector('[data-node-count]');
     const statusEl = counter.querySelector('[data-node-status]');
+    const fallbackUrl = counter.getAttribute('data-node-fallback-url');
+    const renderedValue = parseCounterNumber(valueEl.textContent || '');
     const targetValue = Number.parseInt(counter.getAttribute('data-node-target') || '', 10);
-    const startValue = Number.parseInt(counter.getAttribute('data-node-start') || '0', 10);
+    const startAttribute = counter.getAttribute('data-node-start');
+    const startValue = startAttribute === null ? (renderedValue ?? 0) : Number.parseInt(startAttribute, 10);
     const durationMs = Number.parseInt(counter.getAttribute('data-node-duration') || '2600', 10);
     const endTime = getGroupEndTime(counter, durationMs);
     const getRemainingDuration = () => Math.max(0, endTime - performance.now());
@@ -90,41 +157,33 @@
       return;
     }
 
-    fetch(url, { cache: 'no-store' })
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error(`Unexpected response: ${response.status}`);
-        }
-        return response.json();
-      })
-      .then((data) => {
-        let count = null;
-        if (Array.isArray(data)) {
-          count = data.length;
-        } else if (Array.isArray(data.nodes)) {
-          count = data.nodes.length;
-        } else if (data.statistics && typeof data.statistics.nodes === 'number') {
-          count = data.statistics.nodes;
-        } else if (typeof data.count === 'number') {
-          count = data.count;
-        } else if (typeof data.nodeCount === 'number') {
-          count = data.nodeCount;
-        }
-
-        if (!Number.isFinite(count)) {
-          throw new Error('Unexpected data shape');
-        }
-
+    fetchCount(url)
+      .then((count) => {
         animateValue(counter, valueEl, startValue, count, getRemainingDuration());
         if (statusEl) {
           statusEl.textContent = 'Live nodes right now';
         }
       })
       .catch(() => {
-        counter.classList.add('node-counter--error');
-        if (statusEl) {
-          statusEl.textContent = 'Live count unavailable';
-        }
+        fetchCount(fallbackUrl)
+          .then((count) => {
+            const currentValue = parseCounterNumber(valueEl.textContent || '') ?? startValue;
+            animateValue(counter, valueEl, currentValue, count, getRemainingDuration());
+            if (statusEl) {
+              statusEl.textContent = 'Showing latest cached count';
+            }
+          })
+          .catch(() => {
+            if (renderedValue !== null) {
+              const currentValue = parseCounterNumber(valueEl.textContent || '') ?? 0;
+              animateValue(counter, valueEl, currentValue, renderedValue, getRemainingDuration());
+            }
+
+            counter.classList.add('node-counter--error');
+            if (statusEl) {
+              statusEl.textContent = renderedValue === null ? 'Live count unavailable' : 'Showing latest cached count';
+            }
+          });
       });
   };
 
