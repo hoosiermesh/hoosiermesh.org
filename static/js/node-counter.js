@@ -175,7 +175,8 @@
         const renderedValue = parseCounterNumber(valueEl.textContent || '');
         const targetValue = Number.parseInt(counter.getAttribute('data-node-target') || '', 10);
         const startAttribute = counter.getAttribute('data-node-start');
-        const startValue = startAttribute === null ? (renderedValue ?? 0) : Number.parseInt(startAttribute, 10);
+        const parsedStart = startAttribute === null ? Number.NaN : Number.parseInt(startAttribute, 10);
+        const startValue = Number.isFinite(parsedStart) ? parsedStart : 0;
         const rawDuration = Number.parseInt(counter.getAttribute('data-node-duration') || '2200', 10);
         const durationMs = Number.isFinite(rawDuration) && rawDuration > 0 ? rawDuration : 2200;
         const url = counter.getAttribute('data-node-counter-url');
