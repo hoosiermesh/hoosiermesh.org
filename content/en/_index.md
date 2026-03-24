@@ -22,13 +22,20 @@ images: ["/images/hm_pwd_720.webp"]
     <a class="btn btn-lg btn-secondary me-3" href="https://discord.gg/VrFcGTrw6V" target="_blank">
       Join Discord <i class="fab fa-discord ms-2 "></i>
     </a>
-    <a class="btn btn-lg btn-secondary" href="/events/">
-      Upcoming Events <i class="fas fa-calendar-alt ms-2"></i>
+    <a
+      class="btn btn-lg btn-info"
+      href="/events/"
+      data-home-upcoming-event-button
+      data-home-upcoming-event-url="/.netlify/functions/next-event"
+      data-home-upcoming-event-fallback="Upcoming Event"
+    >
+      <span data-home-upcoming-event-label>Upcoming Event</span> <i class="fas fa-calendar-alt ms-2"></i>
     </a>
   </p>
 </div>
 
 <script src="/js/node-counter.js" defer></script>
+<script src="/js/home-events-button.js" defer></script>
 
 {{< /blocks/cover >}}
 
