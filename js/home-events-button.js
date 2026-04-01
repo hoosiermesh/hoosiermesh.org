@@ -6,7 +6,7 @@
 
   const preferredEndpoint = button.getAttribute('data-home-upcoming-event-url') || '/api/next-event.json';
   const fallbackEndpoint = '/.netlify/functions/next-event';
-  const endpoints = Array.from(new Set([preferredEndpoint, '/api/next-event', fallbackEndpoint]));
+  const endpoints = Array.from(new Set(['/api/next-event', preferredEndpoint, fallbackEndpoint]));
   const labelPrefix = button.getAttribute('data-home-upcoming-event-fallback') || 'Upcoming Event';
 
   const labelNode = button.querySelector('[data-home-upcoming-event-label]');
