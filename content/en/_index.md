@@ -29,7 +29,7 @@ images: ["/images/hm_pwd_720.webp"]
       data-home-upcoming-event-url="/api/next-event.json"
       data-home-upcoming-event-fallback="Upcoming Event"
     >
-      <span data-home-upcoming-event-label>Upcoming Event</span> <i class="fas fa-calendar-alt ms-2"></i>
+      <span data-home-upcoming-event-label>Upcoming Event</span> <i class="fa-solid fa-calendar-days" style="color: rgb(103, 234, 148);"></i>
     </a>
   </p>
 </div>
