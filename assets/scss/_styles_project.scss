@@ -15,6 +15,22 @@ https://www.docsy.dev/docs/content/lookandfeel/#project-style-files
 	background-color: $primary !important;
 }
 
+// Keep brand logo and text aligned on one row with predictable spacing.
+.td-navbar .navbar-brand {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.55rem;
+	margin-right: 0.75rem;
+	padding-right: 0;
+}
+
+.td-navbar .navbar-brand svg,
+.td-navbar .navbar-brand img {
+	height: 2rem;
+	width: auto;
+	flex: 0 0 auto;
+}
+
 // Add drop shadow to cover title
 .td-cover-block h1 {
 	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);

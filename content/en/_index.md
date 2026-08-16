@@ -1,7 +1,7 @@
 ---
 title: Hoosier Mesh
 description: Community-powered connectivity for Indiana. Get connected today!
-images: ["/images/hm_pwd_720.webp"]
+images: ["/images/hm_main.svg"]
 ---
 
 <style>
@@ -9,13 +9,58 @@ images: ["/images/hm_pwd_720.webp"]
     display: none;
   }
 
+  .home-main-logo {
+    width: 520px;
+    max-width: 100%;
+    height: auto;
+    margin: -1.45rem auto -0.55rem;
+    display: block;
+  }
+
+  .td-cover-block .pt-3.lead {
+    padding-top: 0 !important;
+    margin-top: -0.35rem;
+  }
+
+  .td-cover-block .td-overlay__inner {
+    padding-top: 0.1rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .td-cover-block .pt-3.lead > .home-hero-copy {
+    margin-top: 0.95rem;
+  }
+
+  .td-cover-block .display-2 {
+    margin-bottom: 0.35rem !important;
+  }
+
+  .home-hero-tagline {
+    margin-bottom: 0.95rem;
+  }
+
+  .td-cover-block .home-cta {
+    margin-top: 1.15rem !important;
+    margin-bottom: 0.35rem !important;
+  }
+
+  @media (max-width: 767.98px) {
+    .home-main-logo {
+      width: 88vw;
+      max-width: 88vw;
+    }
+  }
+
 </style>
 
-{{< blocks/cover title="Hoosier Mesh" image_anchor="top" height="max" >}}
+{{< blocks/cover image_anchor="top" height="max" >}}
 
-<div class="pt-3 lead">
-  <p class="display-6">Community-powered connectivity for Indiana</p>
-  <p class="p-initial my-5 home-cta">
+<img src="/images/hm_main.svg" alt="Hoosier Mesh logo" class="home-main-logo">
+<h1 class="display-2 mt-0 mb-3">Hoosier Mesh</h1>
+
+<div class="home-hero-copy">
+  <p class="display-6 home-hero-tagline">Community-powered connectivity for Indiana</p>
+  <p class="p-initial home-cta">
     <a class="btn btn-lg btn-primary me-3" href="/docs/getting-started/get-a-node/">
       Get a node <i class="fas fa-arrow-alt-circle-right ms-2"></i>
     </a>

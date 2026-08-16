@@ -20690,6 +20690,19 @@ https://www.docsy.dev/docs/content/lookandfeel/#project-style-files
 .navbar-dark {
   background-color: #2C2D3C !important; }
 
+.td-navbar .navbar-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin-right: 0.75rem;
+  padding-right: 0; }
+
+.td-navbar .navbar-brand svg,
+.td-navbar .navbar-brand img {
+  height: 2rem;
+  width: auto;
+  flex: 0 0 auto; }
+
 .td-cover-block h1, .td-cover-block .h1 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); }
 
