@@ -1,27 +1,16 @@
 ---
 title: About Hoosier Mesh
 linkTitle: About
-menu: { main: { weight: 10 } }
 ---
 
-{{% blocks/cover title="About Hoosier Mesh" image_anchor="bottom" height="auto" %}}
-
-{{% /blocks/cover %}}
-
-{{% blocks/lead %}}
+# About Hoosier Mesh
 
 We're a grassroots community dedicated to building and expanding [Meshtastic](https://meshtastic.org/) communication networks across Indiana.
 
-{{% /blocks/lead %}}
+## Ready to get started?
 
-{{% blocks/section type="row text-center" %}}
+Check out the [docs](/docs/getting-started/).
 
-# Ready to get started? Check out the [docs](/docs/getting-started/)
+## Want to meet other Meshers?
 
-{{% /blocks/section %}}
-
-{{% blocks/section type="row text-center" color="primary" %}}
-
-# Want to meet other Meshers? Join our [community](/community/)
-
-{{% /blocks/section %}}
+Join our [community](/community/).

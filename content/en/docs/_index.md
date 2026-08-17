@@ -2,20 +2,15 @@
 title: Documentation
 description: Complete guides for setting up, configuring, and using Meshtastic devices on the Hoosier Mesh network
 linkTitle: Docs
-menu: { main: { weight: 20 } }
 categories: [Documentation]
 tags: [overview]
 ---
 
-{{% blocks/cover title="Hoosier Mesh Documentation" image_anchor="top" height="auto" %}}
-Complete guides for setting up, configuring, and using Meshtastic devices on the Hoosier Mesh network.
-{{% /blocks/cover %}}
+# Hoosier Mesh Documentation
 
-{{% blocks/lead %}}
+Complete guides for setting up, configuring, and using Meshtastic devices on the Hoosier Mesh network.
 
 Whether you're new to mesh networking or an experienced operator, you'll find everything you need to get the most out of your Meshtastic device in the Indiana community.
-
-{{% /blocks/lead %}}
 
 ## For New Users
 

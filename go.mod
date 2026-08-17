@@ -1,5 +1,3 @@
-module github.com/google/docsy-example
+module github.com/hoosiermesh/hoosiermesh.org
 
 go 1.12
-
-require github.com/google/docsy v0.13.0
